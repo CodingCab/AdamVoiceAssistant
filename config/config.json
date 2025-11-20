@@ -27,7 +27,7 @@
     "timeout": 30,
     "retry_on_error": true,
     "max_retries": 3,
-    "initial_prompt": "Adam, Hey Adam, Johnny, Hey Johnny, Claude, task, project, code, bug, test, commit, push",
+    "initial_prompt": "Adam, Hey Adam, Johnny, Hey Johnny, Claude, task, project, code, bug, test, commit, push, reload, config",
     "hotwords": "Johnny:10 ShipTown:10 Adam:10"
   },
   "audio": {

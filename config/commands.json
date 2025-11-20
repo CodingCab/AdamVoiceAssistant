@@ -101,10 +101,23 @@
       "fileName": ""
     },
     "commit_and_push": {
-      "aliases": ["commit and push", "git commit and push", "commit and push it"],
+      "aliases": ["commit and push", "git commit and push", "commit and push it", "commit and push that"],
       "description": "Paste git commit and push command",
       "action": "paste_text",
       "text": "commit and push",
+      "fileName": ""
+    },
+    "reset_to_dev": {
+      "aliases": ["reset to dev"],
+      "description": "",
+      "action": "paste_text",
+      "text": "reset to dev",
+      "fileName": ""
+    },
+    "reload_config": {
+      "aliases": ["reload config", "reload configuration", "refresh config"],
+      "description": "Reload configuration and commands without restarting",
+      "action": "reload_config",
       "fileName": ""
     }
   },

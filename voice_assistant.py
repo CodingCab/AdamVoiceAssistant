@@ -195,6 +195,7 @@ class VoiceAssistant:
         self.command_handler.register_action("undo_last", self._handle_undo_last)
         self.command_handler.register_action("repeat_last", self._handle_repeat_last)
         self.command_handler.register_action("paste_text", self._handle_paste_text)
+        self.command_handler.register_action("reload_config", self._handle_reload_config)
 
     def process_audio_recording(self) -> bool:
         """
@@ -455,6 +456,26 @@ class VoiceAssistant:
             self.paster.paste_text(paste_text, send_enter=True)
             return f"Pasted: {paste_text}"
         return "No text to paste"
+
+    def _handle_reload_config(self, command: dict, text: str) -> str:
+        """Handle reload config command - reloads configuration and commands."""
+        try:
+            # Reload configuration
+            config_path = os.path.join(self.config_dir, "config.json")
+            self.config_manager = ConfigManager(config_path)
+
+            # Reload commands
+            commands_path = os.path.join(self.config_dir, "commands.json")
+            self.commands_manager = CommandsManager(commands_path)
+
+            # Update command handler with new commands manager
+            self.command_handler.commands_manager = self.commands_manager
+
+            log("Configuration and commands reloaded successfully")
+            return "Configuration reloaded successfully"
+        except Exception as e:
+            log(f"Failed to reload configuration: {e}")
+            return f"Failed to reload configuration: {e}"
 
     def run(self):
         """Run the voice assistant in continuous mode."""
