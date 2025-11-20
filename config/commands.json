@@ -95,7 +95,7 @@
       "fileName": ""
     },
     "repeat": {
-      "aliases": ["again", "repeat_last", "again?"],
+      "aliases": ["again", "repeat_last", "again?", "repaste"],
       "description": "Repeat last transcription",
       "action": "repeat_last",
       "fileName": ""
@@ -108,7 +108,7 @@
       "fileName": ""
     },
     "reset_to_dev": {
-      "aliases": ["reset to dev"],
+      "aliases": ["reset to dev", "reset to death", "reset to deaf"],
       "description": "",
       "action": "paste_text",
       "text": "reset to dev",
