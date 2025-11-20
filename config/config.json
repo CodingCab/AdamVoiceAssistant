@@ -1,0 +1,81 @@
+{
+  "app": {
+    "name": "Adam Voice Assistant",
+    "version": "2.0.0",
+    "debug": false,
+    "log_level": "INFO"
+  },
+  "audio": {
+    "sample_rate": 44100,
+    "channels": 1,
+    "format": "int16",
+    "chunk_size": 1024,
+    "silence_threshold": 700,
+    "silence_duration": 1.0,
+    "min_recording_time": 0.5,
+    "max_silence_timeout": 5.0,
+    "buffer_size": 43
+  },
+  "transcription": {
+    "model": "tiny",
+    "device": "cpu",
+    "compute_type": "float32",
+    "cpu_threads": 4,
+    "num_workers": 1,
+    "language": "en",
+    "beam_size": 1,
+    "vad_filter": false,
+    "timeout": 30,
+    "retry_on_error": true,
+    "max_retries": 3
+  },
+  "speech": {
+    "voice": "com.apple.speech.synthesis.voice.Alex",
+    "rate": 200,
+    "pre_speak_delay": 3,
+    "mute_input_before_speak": true,
+    "mute_level": 0,
+    "unmute_level": 100
+  },
+  "paths": {
+    "recordings_dir": "files/Artur Recordings",
+    "analytics_dir": "files/analytics",
+    "cache_dir": ".cache",
+    "config_dir": "config"
+  },
+  "features": {
+    "echo_detection": true,
+    "auto_paste": true,
+    "analytics_enabled": true,
+    "command_mode": true,
+    "multi_language_detect": false,
+    "batch_processing": false
+  },
+  "commands": {
+    "enabled": true,
+    "config_file": "config/commands.json",
+    "prefix": "",
+    "case_sensitive": false
+  },
+  "paste": {
+    "delay_before_paste": 0.2,
+    "delay_after_paste": 0.1,
+    "send_enter": true
+  },
+  "modes": {
+    "dictation": {
+      "enabled": true,
+      "auto_paste": true,
+      "send_enter": true
+    },
+    "command": {
+      "enabled": true,
+      "auto_execute": true
+    },
+    "conversation": {
+      "enabled": false,
+      "keep_history": true,
+      "max_history": 10
+    }
+  }
+}

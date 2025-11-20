@@ -1,0 +1,20 @@
+# Adam Voice Assistant v2.0 - Requirements
+
+# Audio processing
+pyaudio>=0.2.13
+numpy>=1.21.0
+wave
+
+# Speech recognition
+faster-whisper>=0.10.0
+
+# Text pasting and automation
+pyperclip>=1.8.2
+pyautogui>=0.9.53
+
+# Utilities
+python-dotenv>=0.19.0
+
+# Optional: for enhanced features
+# scipy>=1.7.0  # For advanced audio processing
+# librosa>=0.10.0  # For audio analysis

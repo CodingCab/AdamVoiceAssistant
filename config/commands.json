@@ -1,0 +1,93 @@
+{
+  "commands": {
+    "stop": {
+      "aliases": ["quit", "exit", "close"],
+      "description": "Stop the voice assistant",
+      "action": "stop"
+    },
+    "pause": {
+      "aliases": ["hold", "wait"],
+      "description": "Pause voice recognition (microphone stays on, recording paused)",
+      "action": "pause"
+    },
+    "resume": {
+      "aliases": ["continue", "start"],
+      "description": "Resume voice recognition after pause",
+      "action": "resume"
+    },
+    "help": {
+      "aliases": ["info", "?"],
+      "description": "Show available commands",
+      "action": "show_help"
+    },
+    "status": {
+      "aliases": ["state", "info"],
+      "description": "Show current assistant status",
+      "action": "show_status"
+    },
+    "settings": {
+      "aliases": ["config", "options"],
+      "description": "Show current settings",
+      "action": "show_settings"
+    },
+    "clear_cache": {
+      "aliases": ["clean", "reset"],
+      "description": "Clear transcription cache and history",
+      "action": "clear_cache"
+    },
+    "toggle_echo": {
+      "aliases": ["echo"],
+      "description": "Toggle echo detection on/off",
+      "action": "toggle_echo"
+    },
+    "toggle_auto_paste": {
+      "aliases": ["paste"],
+      "description": "Toggle automatic paste on/off",
+      "action": "toggle_auto_paste"
+    },
+    "set_language": {
+      "aliases": ["language", "lang"],
+      "description": "Set transcription language (e.g., 'set language spanish')",
+      "action": "set_language",
+      "requires_param": true
+    },
+    "dictation_mode": {
+      "aliases": ["mode dictation", "dictate"],
+      "description": "Switch to dictation mode (auto-paste enabled)",
+      "action": "set_mode",
+      "param": "dictation"
+    },
+    "command_mode": {
+      "aliases": ["mode command"],
+      "description": "Switch to command mode (requires voice commands)",
+      "action": "set_mode",
+      "param": "command"
+    },
+    "conversation_mode": {
+      "aliases": ["mode conversation", "talk"],
+      "description": "Switch to conversation mode (multi-turn interaction)",
+      "action": "set_mode",
+      "param": "conversation"
+    },
+    "history": {
+      "aliases": ["list", "show"],
+      "description": "Show last 10 transcriptions",
+      "action": "show_history"
+    },
+    "undo": {
+      "aliases": ["revert", "undo_last"],
+      "description": "Undo last transcription",
+      "action": "undo_last"
+    },
+    "repeat": {
+      "aliases": ["again", "repeat_last"],
+      "description": "Repeat last transcription",
+      "action": "repeat_last"
+    }
+  },
+  "command_detection": {
+    "max_distance": 2,
+    "require_exact_match": false,
+    "fuzzy_matching": true
+  }
+}
