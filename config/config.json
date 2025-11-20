@@ -64,7 +64,8 @@
   "paste": {
     "delay_before_paste": 0.2,
     "delay_after_paste": 0.1,
-    "send_enter": true
+    "send_enter": true,
+    "continuation_timeout": 3.0
   },
   "modes": {
     "dictation": {

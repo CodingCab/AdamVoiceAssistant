@@ -76,6 +76,9 @@ class VoiceAssistant:
         # Wake word cooldown
         self.wake_word_active_until = 0  # Timestamp until wake word is active
 
+        # Continuation detection
+        self.last_paste_time = 0  # Timestamp of last paste
+
         # Initialize
         self._initialize()
 
@@ -313,8 +316,23 @@ class VoiceAssistant:
         if wake_word_detected or cooldown_active:
             if text:  # Only paste if there's text
                 self.state_manager.set_state(AssistantState.PROCESSING)
-                if self.paster.paste_text(text):
+
+                # Determine if we should send Enter based on continuation timeout
+                continuation_timeout = self.config_manager.get('paste.continuation_timeout', 3.0)
+                time_since_last_paste = current_time - self.last_paste_time
+                is_continuation = (self.last_paste_time > 0 and
+                                 time_since_last_paste < continuation_timeout)
+
+                # Don't send Enter if this is a continuation
+                send_enter = not is_continuation
+
+                if is_continuation:
+                    log(f"Continuation detected ({time_since_last_paste:.1f}s since last paste)", debug_only=True)
+
+                if self.paster.paste_text(text, send_enter=send_enter):
                     self.state_manager.increment_stat('successful_pastes')
+                    self.last_paste_time = time.time()  # Update last paste time
+
                     # Delete audio file after successful paste
                     if self.last_audio_file and os.path.exists(self.last_audio_file):
                         try:

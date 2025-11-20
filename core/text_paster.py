@@ -35,12 +35,13 @@ class TextPaster:
             if self.logger:
                 self.logger.error("pyperclip or pyautogui not installed")
 
-    def paste_text(self, text: str) -> bool:
+    def paste_text(self, text: str, send_enter: bool = None) -> bool:
         """
         Paste text into active window.
 
         Args:
             text: Text to paste
+            send_enter: Override whether to send Enter after paste (None = use config default)
 
         Returns:
             True if successful, False otherwise
@@ -86,8 +87,9 @@ class TextPaster:
             delay_after = self.config.get('delay_after_paste', 0.1)
             time.sleep(delay_after)
 
-            # Send Enter if configured
-            if self.config.get('send_enter', True):
+            # Send Enter if configured (use parameter override if provided)
+            should_send_enter = send_enter if send_enter is not None else self.config.get('send_enter', True)
+            if should_send_enter:
                 pyautogui.press('enter')
                 if self.logger:
                     self.logger.debug("Pressed Enter")
