@@ -1,0 +1,20 @@
+# Ignore all files in the files folder
+files/
+
+# Ignore cache
+.cache/
+
+# Ignore last spoken file
+last_spoken.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/

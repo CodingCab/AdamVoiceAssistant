@@ -54,9 +54,6 @@ def speak(text):
     start_time = time.time()
 
     try:
-        # Wait 3 seconds to ensure recording cycle is complete
-        time.sleep(3)
-
         # Save what we're about to say
         save_last_spoken(text)
 

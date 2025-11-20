@@ -108,23 +108,56 @@ class SpeechToText:
 
             log(f"Transcribing: {audio_filename} ({audio_duration:.1f}s)", debug_only=True)
 
-            # Transcribe audio
+            # Transcribe audio with word timestamps enabled
             segments, info = self.model.transcribe(
                 audio_filename,
                 language=self.config.get('language', 'en'),
                 beam_size=self.config.get('beam_size', 1),
-                vad_filter=self.config.get('vad_filter', False)
+                vad_filter=self.config.get('vad_filter', False),
+                word_timestamps=True,
+                temperature=self.config.get('temperature', 0),
+                condition_on_previous_text=self.config.get('condition_on_previous_text', True),
+                no_speech_threshold=self.config.get('no_speech_threshold', 0.6),
+                log_prob_threshold=self.config.get('log_prob_threshold', -1.0),
+                compression_ratio_threshold=self.config.get('compression_ratio_threshold', 2.4)
             )
 
-            # Collect transcription
-            transcription = " ".join([segment.text for segment in segments]).strip()
+            # Collect transcription and segment details
+            segments_list = list(segments)
+            transcription = " ".join([segment.text for segment in segments_list]).strip()
             transcription_time = time.time() - start_time
 
             if not transcription:
                 log("No transcription found (empty audio)", debug_only=True)
                 return None
 
-            # Build result data
+            # Collect detailed segment information
+            segment_details = []
+            for segment in segments_list:
+                segment_info = {
+                    'start': round(segment.start, 2),
+                    'end': round(segment.end, 2),
+                    'text': segment.text,
+                    'avg_logprob': round(segment.avg_logprob, 4),
+                    'no_speech_prob': round(segment.no_speech_prob, 4),
+                    'compression_ratio': round(segment.compression_ratio, 2)
+                }
+
+                # Add word timestamps if available
+                if hasattr(segment, 'words') and segment.words:
+                    segment_info['words'] = [
+                        {
+                            'word': word.word,
+                            'start': round(word.start, 2),
+                            'end': round(word.end, 2),
+                            'probability': round(word.probability, 4)
+                        }
+                        for word in segment.words
+                    ]
+
+                segment_details.append(segment_info)
+
+            # Build result data with all available information
             result = {
                 'filename': os.path.basename(audio_filename),
                 'filepath': audio_filename,
@@ -132,7 +165,12 @@ class SpeechToText:
                 'transcription_time_seconds': round(transcription_time, 2),
                 'transcription': transcription,
                 'language': info.language,
-                'language_probability': round(info.language_probability, 2)
+                'language_probability': round(info.language_probability, 2),
+                'duration': round(info.duration, 2),
+                'duration_after_vad': round(info.duration_after_vad, 2) if hasattr(info, 'duration_after_vad') else None,
+                'all_language_probs': {lang: round(prob, 4) for lang, prob in (info.all_language_probs or [])} if hasattr(info, 'all_language_probs') else None,
+                'segments': segment_details,
+                'total_segments': len(segment_details)
             }
 
             log(f"Transcription complete: \n    {transcription}")  # Always show

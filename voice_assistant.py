@@ -73,6 +73,9 @@ class VoiceAssistant:
         self.last_json_file = None
         self.last_audio_file = None
 
+        # Wake word cooldown
+        self.wake_word_active_until = 0  # Timestamp until wake word is active
+
         # Initialize
         self._initialize()
 
@@ -293,12 +296,23 @@ class VoiceAssistant:
             if result['action'] == 'stop':
                 return False
 
-        # Check for "Hey Johnny" wake word before pasting
+        # Check for "Hey Johnny" wake word or if cooldown is active
         text_lower = text.lower()
-        if text_lower.startswith("hey johnny"):
+        current_time = time.time()
+        wake_word_detected = text_lower.startswith("hey johnny")
+        cooldown_active = current_time < self.wake_word_active_until
+
+        if wake_word_detected:
+            # Play a quick beep when keyword is detected
+            os.system('afplay /System/Library/Sounds/Hero.aiff &')
+            # Activate cooldown for 15 seconds
+            self.wake_word_active_until = current_time + 15
             # Remove wake word from text
             text = text[10:].strip()
-            if text:  # Only paste if there's text after wake word
+
+        # Process text if wake word was just detected or cooldown is still active
+        if wake_word_detected or cooldown_active:
+            if text:  # Only paste if there's text
                 self.state_manager.set_state(AssistantState.PROCESSING)
                 if self.paster.paste_text(text):
                     self.state_manager.increment_stat('successful_pastes')
