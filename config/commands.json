@@ -95,7 +95,7 @@
       "fileName": ""
     },
     "repeat": {
-      "aliases": ["again", "repeat_last"],
+      "aliases": ["again", "repeat_last", "again?"],
       "description": "Repeat last transcription",
       "action": "repeat_last",
       "fileName": ""
