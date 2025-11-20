@@ -219,6 +219,12 @@ class TextPreprocessor:
             log("Echo detected, skipping processing", debug_only=True)
             return "", metadata
 
+        # Check if transcription is only punctuation or very short
+        text_without_punct = transcription.replace('.', '').replace(',', '').replace('!', '').replace('?', '').replace(';', '').replace(':', '').strip()
+        if len(text_without_punct) <= 2:
+            log(f"Skipping very short or punctuation-only text: '{transcription}'", debug_only=True)
+            return "", metadata
+
         # Check for wake word
         wake_word_detected = self.wake_word_detector.detect(transcription)
         metadata['wake_word_detected'] = wake_word_detected
