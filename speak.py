@@ -81,15 +81,27 @@ def speak(text):
         log_run('speak', 'speak', duration=0, additional_data={'error': 'FileNotFoundError'})
 
 if __name__ == "__main__":
+    # Get the text to speak
     if len(sys.argv) > 1:
         # Text provided as argument
         text = ' '.join(sys.argv[1:])
-        speak(text)
     else:
         # Read from stdin
         text = sys.stdin.read().strip()
-        if text:
-            speak(text)
-        else:
+        if not text:
             print("Usage: python3 speak.py \"text to speak\"")
             print("   or: echo \"text\" | python3 speak.py")
+            sys.exit(1)
+
+    # Fork to background immediately so parent can exit
+    pid = os.fork()
+
+    if pid > 0:
+        # Parent process - exit immediately
+        sys.exit(0)
+
+    # Child process continues - detach from parent
+    os.setsid()
+
+    # Execute speech in background
+    speak(text)
