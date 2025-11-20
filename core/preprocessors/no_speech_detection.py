@@ -25,8 +25,9 @@ class NoSpeechDetector:
         # Detection thresholds (can be overridden in config)
         self.no_speech_prob_threshold = self.config.get('no_speech_prob_threshold', 0.5)
         self.word_prob_threshold = self.config.get('word_prob_threshold', 0.2)
-        self.compression_ratio_threshold = self.config.get('compression_ratio_threshold', 0.5)
+        self.compression_ratio_threshold = self.config.get('compression_ratio_threshold', 1.0)
         self.min_transcription_length = self.config.get('min_transcription_length', 3)
+        self.min_avg_word_prob = self.config.get('min_avg_word_prob', 0.1)
 
     def is_valid_speech(self, transcription_data: Dict) -> bool:
         """
@@ -99,6 +100,14 @@ class NoSpeechDetector:
             low_confidence_ratio = low_confidence_words / total_words
             if low_confidence_ratio > 0.7:  # 70% of words have low confidence
                 log(f"No speech: too many low confidence words ({low_confidence_ratio:.2%})", debug_only=True)
+                return False
+
+            # Check 7: Average word probability too low (indicates noise/gibberish)
+            avg_word_prob = sum(segment.get('words', [{}])[i].get('probability', 0)
+                               for segment in segments
+                               for i in range(len(segment.get('words', [])))) / total_words
+            if avg_word_prob < self.min_avg_word_prob:
+                log(f"No speech: average word probability too low ({avg_word_prob:.4f})", debug_only=True)
                 return False
 
         # All checks passed - valid speech detected
