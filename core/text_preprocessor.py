@@ -10,6 +10,7 @@ import os
 from typing import Dict, Optional, Tuple
 
 from timing import log
+from .preprocessors import WakeWordDetector, RemoveWakeWord
 
 
 class TextPreprocessor:
@@ -28,6 +29,10 @@ class TextPreprocessor:
         self.last_spoken_file = None
         self.last_spoken_text = None
         self.correction_rules = self._load_correction_rules()
+
+        # Initialize wake word detector and remover
+        self.wake_word_detector = WakeWordDetector(config, logger)
+        self.wake_word_remover = RemoveWakeWord(config, logger)
 
     def _load_correction_rules(self) -> Dict[str, str]:
         """Load text correction rules (can be extended)."""
@@ -205,12 +210,25 @@ class TextPreprocessor:
             'original': transcription,
             'echo_detected': False,
             'corrections_applied': 0,
+            'wake_word_detected': False,
         }
 
         # Check for echo first
         if detect_echo and self.detect_echo(transcription):
             metadata['echo_detected'] = True
             log("Echo detected, skipping processing", debug_only=True)
+            return "", metadata
+
+        # Check for wake word
+        wake_word_detected = self.wake_word_detector.detect(transcription)
+        metadata['wake_word_detected'] = wake_word_detected
+
+        # Remove wake word if detected
+        if wake_word_detected:
+            _, transcription = self.wake_word_remover.remove(transcription)
+
+        # If wake word was detected but no text remains, return empty
+        if wake_word_detected and not transcription:
             return "", metadata
 
         # Apply corrections

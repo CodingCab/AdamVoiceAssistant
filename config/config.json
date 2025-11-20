@@ -49,7 +49,9 @@
     "analytics_enabled": true,
     "command_mode": true,
     "multi_language_detect": false,
-    "batch_processing": false
+    "batch_processing": false,
+    "wake_word": "hey johnny",
+    "wake_word_cooldown": 15
   },
   "commands": {
     "enabled": true,

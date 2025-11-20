@@ -6,6 +6,7 @@ from .text_preprocessor import TextPreprocessor
 from .text_paster import TextPaster
 from .text_to_speech import TextToSpeech
 from .state_manager import StateManager, AssistantMode, AssistantState
+from .preprocessors import WakeWordDetector, RemoveWakeWord
 
 __all__ = [
     'AudioRecorder',
@@ -16,4 +17,6 @@ __all__ = [
     'StateManager',
     'AssistantMode',
     'AssistantState',
+    'WakeWordDetector',
+    'RemoveWakeWord',
 ]

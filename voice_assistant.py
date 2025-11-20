@@ -248,7 +248,7 @@ class VoiceAssistant:
         if self.state_manager.get_mode() == AssistantMode.COMMAND:
             return self._process_as_command(processed_text)
         else:  # DICTATION or CONVERSATION mode
-            return self._process_as_dictation(processed_text)
+            return self._process_as_dictation(processed_text, metadata)
 
     def _process_as_command(self, text: str) -> bool:
         """
@@ -277,12 +277,13 @@ class VoiceAssistant:
         self.state_manager.set_state(AssistantState.IDLE)
         return True
 
-    def _process_as_dictation(self, text: str) -> bool:
+    def _process_as_dictation(self, text: str, metadata: dict) -> bool:
         """
         Process transcription as dictation text.
 
         Args:
             text: Transcribed and processed text
+            metadata: Preprocessing metadata containing wake_word_detected flag
 
         Returns:
             True if should continue, False if should stop
@@ -296,19 +297,17 @@ class VoiceAssistant:
             if result['action'] == 'stop':
                 return False
 
-        # Check for "Hey Johnny" wake word or if cooldown is active
-        text_lower = text.lower()
+        # Check if wake word was detected in preprocessing or if cooldown is active
         current_time = time.time()
-        wake_word_detected = text_lower.startswith("hey johnny")
+        wake_word_detected = metadata.get('wake_word_detected', False)
         cooldown_active = current_time < self.wake_word_active_until
 
         if wake_word_detected:
             # Play a quick beep when keyword is detected
             os.system('afplay /System/Library/Sounds/Hero.aiff &')
-            # Activate cooldown for 15 seconds
-            self.wake_word_active_until = current_time + 15
-            # Remove wake word from text
-            text = text[10:].strip()
+            # Activate cooldown
+            cooldown_duration = self.config_manager.get('features.wake_word_cooldown', 15)
+            self.wake_word_active_until = current_time + cooldown_duration
 
         # Process text if wake word was just detected or cooldown is still active
         if wake_word_detected or cooldown_active:
