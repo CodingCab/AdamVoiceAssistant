@@ -10,7 +10,7 @@ import os
 from typing import Dict, Optional, Tuple
 
 from timing import log
-from .preprocessors import WakeWordDetector, RemoveWakeWord
+from .preprocessors import WakeWordDetector, RemoveWakeWord, MinimumLengthFilter
 
 
 class TextPreprocessor:
@@ -30,9 +30,10 @@ class TextPreprocessor:
         self.last_spoken_text = None
         self.correction_rules = self._load_correction_rules()
 
-        # Initialize wake word detector and remover
+        # Initialize preprocessors
         self.wake_word_detector = WakeWordDetector(config, logger)
         self.wake_word_remover = RemoveWakeWord(config, logger)
+        self.length_filter = MinimumLengthFilter(config, logger)
 
     def _load_correction_rules(self) -> Dict[str, str]:
         """Load text correction rules (can be extended)."""
@@ -219,10 +220,8 @@ class TextPreprocessor:
             log("Echo detected, skipping processing", debug_only=True)
             return "", metadata
 
-        # Check if transcription is only punctuation or very short
-        text_without_punct = transcription.replace('.', '').replace(',', '').replace('!', '').replace('?', '').replace(';', '').replace(':', '').strip()
-        if len(text_without_punct) <= 2:
-            log(f"Skipping very short or punctuation-only text: '{transcription}'", debug_only=True)
+        # Check if transcription should be filtered (too short or punctuation-only)
+        if self.length_filter.should_filter(transcription):
             return "", metadata
 
         # Check for wake word
