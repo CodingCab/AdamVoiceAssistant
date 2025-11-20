@@ -194,6 +194,7 @@ class VoiceAssistant:
         self.command_handler.register_action("show_history", self._handle_show_history)
         self.command_handler.register_action("undo_last", self._handle_undo_last)
         self.command_handler.register_action("repeat_last", self._handle_repeat_last)
+        self.command_handler.register_action("paste_text", self._handle_paste_text)
 
     def process_audio_recording(self) -> bool:
         """
@@ -446,6 +447,14 @@ class VoiceAssistant:
             self.paster.paste_text(last)
             return f"Repeated: {last}"
         return "No previous transcription"
+
+    def _handle_paste_text(self, command: dict, text: str) -> str:
+        """Handle paste text command - pastes predefined text."""
+        paste_text = command.get('text', '')
+        if paste_text:
+            self.paster.paste_text(paste_text, send_enter=True)
+            return f"Pasted: {paste_text}"
+        return "No text to paste"
 
     def run(self):
         """Run the voice assistant in continuous mode."""
