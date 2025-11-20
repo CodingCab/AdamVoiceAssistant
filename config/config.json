@@ -5,16 +5,15 @@
     "debug": false,
     "log_level": "INFO"
   },
-  "audio": {
-    "sample_rate": 44100,
-    "channels": 1,
-    "format": "int16",
-    "chunk_size": 1024,
-    "silence_threshold": 700,
-    "silence_duration": 1.0,
-    "min_recording_time": 0.5,
-    "max_silence_timeout": 5.0,
-    "buffer_size": 43
+  "features": {
+    "echo_detection": true,
+    "auto_paste": true,
+    "analytics_enabled": true,
+    "command_mode": true,
+    "multi_language_detect": false,
+    "batch_processing": false,
+    "wake_words": ["hey johnny", "johnny"],
+    "wake_word_cooldown": 15
   },
   "transcription": {
     "model": "tiny",
@@ -31,6 +30,17 @@
     "initial_prompt": "Johnny, Hey Johnny, Claude, task, project, code, bug, test, commit, push",
     "hotwords": "Johnny;10 ShipTown:10"
   },
+  "audio": {
+    "sample_rate": 44100,
+    "channels": 1,
+    "format": "int16",
+    "chunk_size": 1024,
+    "silence_threshold": 700,
+    "silence_duration": 1.0,
+    "min_recording_time": 0.5,
+    "max_silence_timeout": 5.0,
+    "buffer_size": 43
+  },
   "speech": {
     "voice": "com.apple.speech.synthesis.voice.Alex",
     "rate": 200,
@@ -44,16 +54,6 @@
     "analytics_dir": "files/analytics",
     "cache_dir": ".cache",
     "config_dir": "config"
-  },
-  "features": {
-    "echo_detection": true,
-    "auto_paste": true,
-    "analytics_enabled": true,
-    "command_mode": true,
-    "multi_language_detect": false,
-    "batch_processing": false,
-    "wake_words": ["hey johnny", "johnny"],
-    "wake_word_cooldown": 15
   },
   "commands": {
     "enabled": true,
