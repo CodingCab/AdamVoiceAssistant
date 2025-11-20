@@ -293,30 +293,34 @@ class VoiceAssistant:
             if result['action'] == 'stop':
                 return False
 
-        # Auto-paste if enabled
-        if self.config_manager.get("modes.dictation.auto_paste", True):
-            self.state_manager.set_state(AssistantState.PROCESSING)
-            if self.paster.paste_text(text):
-                self.state_manager.increment_stat('successful_pastes')
-                # Delete audio file after successful paste
-                if self.last_audio_file and os.path.exists(self.last_audio_file):
-                    try:
-                        # Get file info before deletion
-                        file_size = os.path.getsize(self.last_audio_file)
-                        import wave
-                        with wave.open(self.last_audio_file, 'rb') as wf:
-                            frames = wf.getnframes()
-                            rate = wf.getframerate()
-                            duration = frames / float(rate)
+        # Check for "Hey Johnny" wake word before pasting
+        text_lower = text.lower()
+        if text_lower.startswith("hey johnny"):
+            # Remove wake word from text
+            text = text[10:].strip()
+            if text:  # Only paste if there's text after wake word
+                self.state_manager.set_state(AssistantState.PROCESSING)
+                if self.paster.paste_text(text):
+                    self.state_manager.increment_stat('successful_pastes')
+                    # Delete audio file after successful paste
+                    if self.last_audio_file and os.path.exists(self.last_audio_file):
+                        try:
+                            # Get file info before deletion
+                            file_size = os.path.getsize(self.last_audio_file)
+                            import wave
+                            with wave.open(self.last_audio_file, 'rb') as wf:
+                                frames = wf.getnframes()
+                                rate = wf.getframerate()
+                                duration = frames / float(rate)
 
-                        os.remove(self.last_audio_file)
-                        log(f"Deleted audio: {self.last_audio_file} ({duration:.1f}s, {file_size} bytes)", debug_only=True)
-                    except Exception as e:
-                        if self.logger:
-                            self.logger.warning(f"Could not delete audio file: {e}")
-            else:
-                log("Failed to paste", debug_only=True)
-                self.state_manager.increment_stat('errors')
+                            os.remove(self.last_audio_file)
+                            log(f"Deleted audio: {self.last_audio_file} ({duration:.1f}s, {file_size} bytes)", debug_only=True)
+                        except Exception as e:
+                            if self.logger:
+                                self.logger.warning(f"Could not delete audio file: {e}")
+                else:
+                    log("Failed to paste", debug_only=True)
+                    self.state_manager.increment_stat('errors')
 
         self.state_manager.set_state(AssistantState.IDLE)
         return True
