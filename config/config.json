@@ -27,7 +27,9 @@
     "vad_filter": false,
     "timeout": 30,
     "retry_on_error": true,
-    "max_retries": 3
+    "max_retries": 3,
+    "initial_prompt": "Hey Johnny, Claude, task, project, code, bug, test, commit, push",
+    "hotwords": ""
   },
   "speech": {
     "voice": "com.apple.speech.synthesis.voice.Alex",

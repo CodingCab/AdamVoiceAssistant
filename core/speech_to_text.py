@@ -108,19 +108,32 @@ class SpeechToText:
 
             log(f"Transcribing: {audio_filename} ({audio_duration:.1f}s)", debug_only=True)
 
+            # Build transcription parameters
+            transcribe_params = {
+                'audio': audio_filename,
+                'language': self.config.get('language', 'en'),
+                'beam_size': self.config.get('beam_size', 1),
+                'vad_filter': self.config.get('vad_filter', False),
+                'word_timestamps': True,
+                'temperature': self.config.get('temperature', 0),
+                'condition_on_previous_text': self.config.get('condition_on_previous_text', True),
+                'no_speech_threshold': self.config.get('no_speech_threshold', 0.6),
+                'log_prob_threshold': self.config.get('log_prob_threshold', -1.0),
+                'compression_ratio_threshold': self.config.get('compression_ratio_threshold', 2.4)
+            }
+
+            # Add initial prompt if configured (helps with context and vocabulary)
+            initial_prompt = self.config.get('initial_prompt', '')
+            if initial_prompt:
+                transcribe_params['initial_prompt'] = initial_prompt
+
+            # Add hotwords if configured (boosts specific words)
+            hotwords = self.config.get('hotwords', '')
+            if hotwords:
+                transcribe_params['hotwords'] = hotwords
+
             # Transcribe audio with word timestamps enabled
-            segments, info = self.model.transcribe(
-                audio_filename,
-                language=self.config.get('language', 'en'),
-                beam_size=self.config.get('beam_size', 1),
-                vad_filter=self.config.get('vad_filter', False),
-                word_timestamps=True,
-                temperature=self.config.get('temperature', 0),
-                condition_on_previous_text=self.config.get('condition_on_previous_text', True),
-                no_speech_threshold=self.config.get('no_speech_threshold', 0.6),
-                log_prob_threshold=self.config.get('log_prob_threshold', -1.0),
-                compression_ratio_threshold=self.config.get('compression_ratio_threshold', 2.4)
-            )
+            segments, info = self.model.transcribe(**transcribe_params)
 
             # Collect transcription and segment details
             segments_list = list(segments)
