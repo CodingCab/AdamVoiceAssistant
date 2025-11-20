@@ -47,11 +47,9 @@ def unmute_microphone():
         pass
 
 def speak(text):
-    """Speak text using macOS say command."""
+    """Speak text using macOS say command in background."""
     if not text or not text.strip():
         return
-
-    start_time = time.time()
 
     try:
         # Save what we're about to say
@@ -60,28 +58,27 @@ def speak(text):
         # Mute microphone input before speaking
         mute_microphone()
 
-        # Use macOS built-in 'say' command
-        subprocess.run(['say', text], check=True)
+        # Use macOS built-in 'say' command in background
+        # The speech process will run independently and handle unmuting
+        subprocess.Popen(['say', text])
 
-        # Unmute microphone input after speaking
-        unmute_microphone()
+        # Schedule unmuting after a delay (approximate speech duration)
+        # Estimate: ~150 words per minute, ~2.5 chars per word = ~6 chars per second
+        estimated_duration = len(text) / 6.0 + 1.0  # Add 1 second buffer
 
-        # Log analytics
-        duration = time.time() - start_time
-        log_run('speak', 'speak', duration=duration, additional_data={'text_length': len(text)})
+        # Run unmute in background after estimated duration
+        subprocess.Popen([
+            'bash', '-c',
+            f'sleep {estimated_duration:.1f} && osascript -e "set volume input volume 100"'
+        ])
 
-    except subprocess.CalledProcessError as e:
-        print("Error: Could not speak text")
-        # Ensure microphone is unmuted even if there's an error
-        unmute_microphone()
-        duration = time.time() - start_time
-        log_run('speak', 'speak', duration=duration, additional_data={'error': 'CalledProcessError'})
+        # Log analytics immediately (won't capture actual duration, but that's ok)
+        log_run('speak', 'speak', duration=0, additional_data={'text_length': len(text)})
+
     except FileNotFoundError:
         print("Error: 'say' command not found (macOS only)")
-        # Ensure microphone is unmuted even if there's an error
         unmute_microphone()
-        duration = time.time() - start_time
-        log_run('speak', 'speak', duration=duration, additional_data={'error': 'FileNotFoundError'})
+        log_run('speak', 'speak', duration=0, additional_data={'error': 'FileNotFoundError'})
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
