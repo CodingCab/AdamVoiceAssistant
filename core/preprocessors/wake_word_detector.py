@@ -22,29 +22,40 @@ class WakeWordDetector:
         self.config = config or {}
         self.logger = logger
 
-        # Wake word settings
-        self.wake_word = self.config.get('wake_word', '').lower()
+        # Wake word settings - support both single wake_word and multiple wake_words
+        wake_words_list = self.config.get('wake_words', [])
+        single_wake_word = self.config.get('wake_word', '')
+
+        # Build list of wake words
+        if wake_words_list:
+            self.wake_words = [w.lower() for w in wake_words_list]
+        elif single_wake_word:
+            self.wake_words = [single_wake_word.lower()]
+        else:
+            self.wake_words = []
+
         self.cooldown_duration = self.config.get('wake_word_cooldown', 15)
 
     def detect(self, text: str) -> bool:
         """
-        Detect if wake word is present in text.
+        Detect if any wake word is present in text.
 
         Args:
             text: Text to check for wake word
 
         Returns:
-            True if wake word detected, False otherwise
+            True if any wake word detected, False otherwise
         """
-        if not self.wake_word:
+        if not self.wake_words:
             return False
 
         text_lower = text.lower()
 
-        # Check if text starts with wake word
-        if text_lower.startswith(self.wake_word):
-            log(f"Wake word '{self.wake_word}' detected", debug_only=True)
-            return True
+        # Check if text starts with any wake word
+        for wake_word in self.wake_words:
+            if text_lower.startswith(wake_word):
+                log(f"Wake word '{wake_word}' detected", debug_only=True)
+                return True
 
         return False
 
@@ -57,13 +68,13 @@ class WakeWordDetector:
         """
         return self.cooldown_duration
 
-    def set_wake_word(self, wake_word: str):
-        """Update the wake word."""
-        self.wake_word = wake_word.lower()
+    def set_wake_words(self, wake_words: list):
+        """Update the wake words list."""
+        self.wake_words = [w.lower() for w in wake_words]
 
     def set_cooldown_duration(self, duration: int):
         """Update the cooldown duration."""
         self.cooldown_duration = duration
 
     def __repr__(self):
-        return f"WakeWordDetector(wake_word='{self.wake_word}', cooldown={self.cooldown_duration}s)"
+        return f"WakeWordDetector(wake_words={self.wake_words}, cooldown={self.cooldown_duration}s)"
