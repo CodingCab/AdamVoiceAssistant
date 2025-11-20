@@ -12,9 +12,14 @@ import subprocess
 import os
 import time
 
-# Add parent directory to path to find analytics module
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-from analytics import log_run
+# Try to import analytics module if available
+try:
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+    from analytics import log_run
+except ImportError:
+    # Analytics module not available, define a no-op function
+    def log_run(*args, **kwargs):
+        pass
 
 LAST_SPOKEN_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'last_spoken.txt')
 
