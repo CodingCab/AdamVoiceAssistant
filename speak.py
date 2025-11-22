@@ -21,11 +21,14 @@ except ImportError:
     def log_run(*args, **kwargs):
         pass
 
-LAST_SPOKEN_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'last_spoken.txt')
+CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.cache')
+LAST_SPOKEN_FILE = os.path.join(CACHE_DIR, 'last_spoken.txt')
 
 def save_last_spoken(text):
     """Save the last spoken text to a file."""
     try:
+        # Create cache directory if it doesn't exist
+        os.makedirs(CACHE_DIR, exist_ok=True)
         with open(LAST_SPOKEN_FILE, 'w') as f:
             f.write(text.strip().lower())
     except:
