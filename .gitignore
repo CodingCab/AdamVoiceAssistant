@@ -4,6 +4,9 @@ files/
 # Ignore cache
 .cache/
 
+# Ignore user home cache directory files
+~/
+
 # Ignore last spoken file
 last_spoken.txt
 
