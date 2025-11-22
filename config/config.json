@@ -2,8 +2,8 @@
   "app": {
     "name": "Adam Voice Assistant",
     "version": "2.0.0",
-    "debug": true,
-    "log_level": "DEBUG"
+    "debug": false,
+    "log_level": "INFO"
   },
   "features": {
     "echo_detection": true,
