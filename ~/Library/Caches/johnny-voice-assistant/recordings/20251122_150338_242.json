@@ -1,0 +1,73 @@
+{
+  "filename": "20251122_150338_242.wav",
+  "filepath": "~/Library/Caches/johnny-voice-assistant/recordings/20251122_150338_242.wav",
+  "recording_length_seconds": 3.99,
+  "transcription_time_seconds": 0.48,
+  "transcription": "at least at the end of the night.",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 3.99,
+  "duration_after_vad": 1.61,
+  "all_language_probs": {},
+  "segments": [
+    {
+      "start": 0.27,
+      "end": 3.62,
+      "text": " at least at the end of the night.",
+      "avg_logprob": -0.9187,
+      "no_speech_prob": 0.3164,
+      "compression_ratio": 0.89,
+      "words": [
+        {
+          "word": " at",
+          "start": 0.27,
+          "end": 0.57,
+          "probability": 0.1134
+        },
+        {
+          "word": " least",
+          "start": 0.57,
+          "end": 0.73,
+          "probability": 0.9484
+        },
+        {
+          "word": " at",
+          "start": 0.73,
+          "end": 0.89,
+          "probability": 0.3257
+        },
+        {
+          "word": " the",
+          "start": 0.89,
+          "end": 0.97,
+          "probability": 0.6229
+        },
+        {
+          "word": " end",
+          "start": 0.97,
+          "end": 1.19,
+          "probability": 0.7461
+        },
+        {
+          "word": " of",
+          "start": 3.3,
+          "end": 3.3,
+          "probability": 0.2683
+        },
+        {
+          "word": " the",
+          "start": 3.3,
+          "end": 3.48,
+          "probability": 0.6263
+        },
+        {
+          "word": " night.",
+          "start": 3.48,
+          "end": 3.62,
+          "probability": 0.5657
+        }
+      ]
+    }
+  ],
+  "total_segments": 1
+}

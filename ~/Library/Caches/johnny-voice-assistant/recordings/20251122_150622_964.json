@@ -1,0 +1,37 @@
+{
+  "filename": "20251122_150622_964.wav",
+  "filepath": "~/Library/Caches/johnny-voice-assistant/recordings/20251122_150622_964.wav",
+  "recording_length_seconds": 3.99,
+  "transcription_time_seconds": 0.5,
+  "transcription": "the same.",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 3.99,
+  "duration_after_vad": 2.41,
+  "all_language_probs": {},
+  "segments": [
+    {
+      "start": 1.58,
+      "end": 2.76,
+      "text": " the same.",
+      "avg_logprob": -1.9414,
+      "no_speech_prob": 0.4506,
+      "compression_ratio": 0.53,
+      "words": [
+        {
+          "word": " the",
+          "start": 1.58,
+          "end": 2.76,
+          "probability": 0.0038
+        },
+        {
+          "word": " same.",
+          "start": 2.76,
+          "end": 2.76,
+          "probability": 0.0151
+        }
+      ]
+    }
+  ],
+  "total_segments": 1
+}

@@ -179,7 +179,7 @@ class AudioRecorder:
                 duration = len(frames) * self.chunk_size / self.sample_rate
                 file_size = os.path.getsize(output_filename)
 
-                log(f"Saved audio: {output_filename} ({duration:.1f}s, {file_size} bytes)", debug_only=True)
+                log(f"Saved audio: {os.path.basename(output_filename)} ({duration:.1f}s, {file_size} bytes)", debug_only=True)
 
                 return True
 

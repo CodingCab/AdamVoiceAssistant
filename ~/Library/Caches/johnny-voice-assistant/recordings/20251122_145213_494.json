@@ -1,0 +1,7713 @@
+{
+  "filename": "20251122_145213_494.wav",
+  "filepath": "~/Library/Caches/johnny-voice-assistant/recordings/20251122_145213_494.wav",
+  "recording_length_seconds": 175.94,
+  "transcription_time_seconds": 10.33,
+  "transcription": "to the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of  back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the  back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the  back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the  back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the  back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 175.94,
+  "duration_after_vad": 165.25,
+  "all_language_probs": {},
+  "segments": [
+    {
+      "start": 0.18,
+      "end": 30.16,
+      "text": " to the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of",
+      "avg_logprob": -0.1822,
+      "no_speech_prob": 0.3899,
+      "compression_ratio": 29.67,
+      "words": [
+        {
+          "word": " to",
+          "start": 0.18,
+          "end": 0.74,
+          "probability": 0.0077
+        },
+        {
+          "word": " the",
+          "start": 0.74,
+          "end": 5.4,
+          "probability": 0.1286
+        },
+        {
+          "word": " back",
+          "start": 5.4,
+          "end": 13.46,
+          "probability": 0.1159
+        },
+        {
+          "word": " of",
+          "start": 13.46,
+          "end": 15.18,
+          "probability": 0.2469
+        },
+        {
+          "word": " the",
+          "start": 15.18,
+          "end": 19.18,
+          "probability": 0.6284
+        },
+        {
+          "word": " back",
+          "start": 19.18,
+          "end": 19.56,
+          "probability": 0.0232
+        },
+        {
+          "word": " of",
+          "start": 19.56,
+          "end": 19.96,
+          "probability": 0.476
+        },
+        {
+          "word": " the",
+          "start": 19.96,
+          "end": 20.56,
+          "probability": 0.8101
+        },
+        {
+          "word": " back",
+          "start": 20.56,
+          "end": 21.4,
+          "probability": 0.2862
+        },
+        {
+          "word": " of",
+          "start": 21.4,
+          "end": 23.54,
+          "probability": 0.5892
+        },
+        {
+          "word": " the",
+          "start": 23.54,
+          "end": 23.6,
+          "probability": 0.8604
+        },
+        {
+          "word": " back",
+          "start": 23.6,
+          "end": 24.0,
+          "probability": 0.566
+        },
+        {
+          "word": " of",
+          "start": 24.0,
+          "end": 27.84,
+          "probability": 0.6716
+        },
+        {
+          "word": " the",
+          "start": 27.84,
+          "end": 27.84,
+          "probability": 0.8832
+        },
+        {
+          "word": " back",
+          "start": 27.84,
+          "end": 28.06,
+          "probability": 0.6451
+        },
+        {
+          "word": " of",
+          "start": 28.06,
+          "end": 30.0,
+          "probability": 0.7228
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8907
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.665
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.7698
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8955
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.6727
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.798
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8961
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.6815
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8214
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8994
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.6864
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8447
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9005
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.6975
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8607
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9003
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.7144
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8717
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9042
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.7233
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.883
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9066
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.7385
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8891
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9094
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.7477
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8975
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9133
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.7566
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9066
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9143
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.761
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9085
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9139
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.77
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9159
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9155
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.7823
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9246
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9167
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.7954
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9275
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9178
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8025
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9306
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9224
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8109
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9343
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9224
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8134
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.934
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9235
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8161
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9387
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9279
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8208
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9392
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9271
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.82
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9414
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9265
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8238
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.944
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9287
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8248
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9457
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9291
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8291
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9473
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9308
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8346
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9494
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9324
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8348
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9501
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9315
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8367
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9519
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9357
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8404
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9524
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9366
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.843
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9542
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9365
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8452
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9567
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9395
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8501
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9565
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9388
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8514
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9575
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9403
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8456
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9587
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9412
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8467
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9561
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9417
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8455
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9582
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9429
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8475
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9602
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9422
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8512
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9598
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9443
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8498
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9634
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9453
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.857
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9622
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9477
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8603
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9626
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9473
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8617
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9644
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9464
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8636
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9657
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9501
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8643
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9652
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9512
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.864
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9666
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9511
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.865
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.969
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9533
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8692
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.968
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.955
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8716
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9695
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9552
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8742
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9685
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9549
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8753
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9682
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9567
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8772
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9701
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9554
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8796
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9707
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.957
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8819
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9703
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9577
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8791
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9726
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9588
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8826
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9737
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9604
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8841
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9726
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9619
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.887
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9735
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9611
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8919
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9733
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9622
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8964
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9736
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9629
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.8974
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9745
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9634
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9005
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9766
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9661
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9002
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9763
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9662
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9034
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9763
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.967
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9044
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9777
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9661
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9045
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9755
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9662
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9079
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9771
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9677
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9075
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9767
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9683
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9111
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9778
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9686
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9108
+        },
+        {
+          "word": " of",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9785
+        },
+        {
+          "word": " the",
+          "start": 30.0,
+          "end": 30.0,
+          "probability": 0.9695
+        },
+        {
+          "word": " back",
+          "start": 30.0,
+          "end": 30.16,
+          "probability": 0.9145
+        },
+        {
+          "word": " of",
+          "start": 30.16,
+          "end": 30.16,
+          "probability": 0.9776
+        },
+        {
+          "word": " the",
+          "start": 30.16,
+          "end": 30.16,
+          "probability": 0.9669
+        },
+        {
+          "word": " back",
+          "start": 30.16,
+          "end": 30.16,
+          "probability": 0.9122
+        },
+        {
+          "word": " of",
+          "start": 30.16,
+          "end": 30.16,
+          "probability": 0.9775
+        }
+      ]
+    },
+    {
+      "start": 33.9,
+      "end": 60.0,
+      "text": " back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the",
+      "avg_logprob": -0.0818,
+      "no_speech_prob": 0.2598,
+      "compression_ratio": 29.96,
+      "words": [
+        {
+          "word": " back",
+          "start": 33.9,
+          "end": 34.38,
+          "probability": 0.0003
+        },
+        {
+          "word": " of",
+          "start": 34.38,
+          "end": 34.38,
+          "probability": 0.0122
+        },
+        {
+          "word": " the",
+          "start": 34.38,
+          "end": 34.38,
+          "probability": 0.4263
+        },
+        {
+          "word": " back",
+          "start": 34.38,
+          "end": 34.74,
+          "probability": 0.0013
+        },
+        {
+          "word": " of",
+          "start": 34.74,
+          "end": 35.02,
+          "probability": 0.508
+        },
+        {
+          "word": " the",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.7452
+        },
+        {
+          "word": " back",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.259
+        },
+        {
+          "word": " of",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.67
+        },
+        {
+          "word": " the",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.8446
+        },
+        {
+          "word": " back",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.6102
+        },
+        {
+          "word": " of",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.7491
+        },
+        {
+          "word": " the",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.8841
+        },
+        {
+          "word": " back",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.6978
+        },
+        {
+          "word": " of",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.7903
+        },
+        {
+          "word": " the",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.9017
+        },
+        {
+          "word": " back",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.737
+        },
+        {
+          "word": " of",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.8139
+        },
+        {
+          "word": " the",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.9113
+        },
+        {
+          "word": " back",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.7455
+        },
+        {
+          "word": " of",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.8324
+        },
+        {
+          "word": " the",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.9168
+        },
+        {
+          "word": " back",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.7521
+        },
+        {
+          "word": " of",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.8502
+        },
+        {
+          "word": " the",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.9204
+        },
+        {
+          "word": " back",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.7627
+        },
+        {
+          "word": " of",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.8673
+        },
+        {
+          "word": " the",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.9222
+        },
+        {
+          "word": " back",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.7662
+        },
+        {
+          "word": " of",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.8816
+        },
+        {
+          "word": " the",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.9244
+        },
+        {
+          "word": " back",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.7764
+        },
+        {
+          "word": " of",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.894
+        },
+        {
+          "word": " the",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.9276
+        },
+        {
+          "word": " back",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.7856
+        },
+        {
+          "word": " of",
+          "start": 35.02,
+          "end": 35.02,
+          "probability": 0.9014
+        },
+        {
+          "word": " the",
+          "start": 35.02,
+          "end": 36.52,
+          "probability": 0.9286
+        },
+        {
+          "word": " back",
+          "start": 36.52,
+          "end": 36.52,
+          "probability": 0.79
+        },
+        {
+          "word": " of",
+          "start": 36.52,
+          "end": 36.68,
+          "probability": 0.9091
+        },
+        {
+          "word": " the",
+          "start": 36.68,
+          "end": 38.38,
+          "probability": 0.933
+        },
+        {
+          "word": " back",
+          "start": 38.38,
+          "end": 38.38,
+          "probability": 0.7983
+        },
+        {
+          "word": " of",
+          "start": 38.38,
+          "end": 38.38,
+          "probability": 0.9173
+        },
+        {
+          "word": " the",
+          "start": 38.38,
+          "end": 38.88,
+          "probability": 0.9358
+        },
+        {
+          "word": " back",
+          "start": 38.88,
+          "end": 38.88,
+          "probability": 0.8041
+        },
+        {
+          "word": " of",
+          "start": 38.88,
+          "end": 38.88,
+          "probability": 0.9201
+        },
+        {
+          "word": " the",
+          "start": 38.88,
+          "end": 38.88,
+          "probability": 0.9383
+        },
+        {
+          "word": " back",
+          "start": 38.88,
+          "end": 38.88,
+          "probability": 0.8062
+        },
+        {
+          "word": " of",
+          "start": 38.88,
+          "end": 38.88,
+          "probability": 0.9243
+        },
+        {
+          "word": " the",
+          "start": 38.88,
+          "end": 38.88,
+          "probability": 0.9402
+        },
+        {
+          "word": " back",
+          "start": 38.88,
+          "end": 38.88,
+          "probability": 0.8105
+        },
+        {
+          "word": " of",
+          "start": 38.88,
+          "end": 38.88,
+          "probability": 0.9294
+        },
+        {
+          "word": " the",
+          "start": 38.88,
+          "end": 38.88,
+          "probability": 0.9403
+        },
+        {
+          "word": " back",
+          "start": 38.88,
+          "end": 38.88,
+          "probability": 0.8144
+        },
+        {
+          "word": " of",
+          "start": 38.88,
+          "end": 38.88,
+          "probability": 0.9343
+        },
+        {
+          "word": " the",
+          "start": 38.88,
+          "end": 38.92,
+          "probability": 0.9404
+        },
+        {
+          "word": " back",
+          "start": 38.92,
+          "end": 39.08,
+          "probability": 0.8163
+        },
+        {
+          "word": " of",
+          "start": 39.08,
+          "end": 39.08,
+          "probability": 0.9372
+        },
+        {
+          "word": " the",
+          "start": 39.08,
+          "end": 39.1,
+          "probability": 0.9416
+        },
+        {
+          "word": " back",
+          "start": 39.1,
+          "end": 39.1,
+          "probability": 0.8258
+        },
+        {
+          "word": " of",
+          "start": 39.1,
+          "end": 39.1,
+          "probability": 0.9391
+        },
+        {
+          "word": " the",
+          "start": 39.1,
+          "end": 40.52,
+          "probability": 0.9421
+        },
+        {
+          "word": " back",
+          "start": 40.52,
+          "end": 40.52,
+          "probability": 0.827
+        },
+        {
+          "word": " of",
+          "start": 40.52,
+          "end": 41.06,
+          "probability": 0.9408
+        },
+        {
+          "word": " the",
+          "start": 41.06,
+          "end": 41.06,
+          "probability": 0.9424
+        },
+        {
+          "word": " back",
+          "start": 41.06,
+          "end": 41.22,
+          "probability": 0.8297
+        },
+        {
+          "word": " of",
+          "start": 41.22,
+          "end": 41.28,
+          "probability": 0.9415
+        },
+        {
+          "word": " the",
+          "start": 41.28,
+          "end": 41.28,
+          "probability": 0.9448
+        },
+        {
+          "word": " back",
+          "start": 41.28,
+          "end": 41.28,
+          "probability": 0.8312
+        },
+        {
+          "word": " of",
+          "start": 41.28,
+          "end": 41.28,
+          "probability": 0.9425
+        },
+        {
+          "word": " the",
+          "start": 41.28,
+          "end": 41.28,
+          "probability": 0.9465
+        },
+        {
+          "word": " back",
+          "start": 41.28,
+          "end": 41.28,
+          "probability": 0.8299
+        },
+        {
+          "word": " of",
+          "start": 41.28,
+          "end": 41.34,
+          "probability": 0.9437
+        },
+        {
+          "word": " the",
+          "start": 41.34,
+          "end": 41.48,
+          "probability": 0.9461
+        },
+        {
+          "word": " back",
+          "start": 41.48,
+          "end": 41.48,
+          "probability": 0.8312
+        },
+        {
+          "word": " of",
+          "start": 41.48,
+          "end": 42.04,
+          "probability": 0.9433
+        },
+        {
+          "word": " the",
+          "start": 42.04,
+          "end": 42.04,
+          "probability": 0.9468
+        },
+        {
+          "word": " back",
+          "start": 42.04,
+          "end": 42.04,
+          "probability": 0.8301
+        },
+        {
+          "word": " of",
+          "start": 42.04,
+          "end": 42.04,
+          "probability": 0.9472
+        },
+        {
+          "word": " the",
+          "start": 42.04,
+          "end": 42.04,
+          "probability": 0.9457
+        },
+        {
+          "word": " back",
+          "start": 42.04,
+          "end": 42.04,
+          "probability": 0.8306
+        },
+        {
+          "word": " of",
+          "start": 42.04,
+          "end": 42.04,
+          "probability": 0.9464
+        },
+        {
+          "word": " the",
+          "start": 42.04,
+          "end": 42.04,
+          "probability": 0.9454
+        },
+        {
+          "word": " back",
+          "start": 42.04,
+          "end": 42.04,
+          "probability": 0.8305
+        },
+        {
+          "word": " of",
+          "start": 42.04,
+          "end": 42.04,
+          "probability": 0.9477
+        },
+        {
+          "word": " the",
+          "start": 42.04,
+          "end": 42.4,
+          "probability": 0.9451
+        },
+        {
+          "word": " back",
+          "start": 42.4,
+          "end": 42.4,
+          "probability": 0.8314
+        },
+        {
+          "word": " of",
+          "start": 42.4,
+          "end": 42.62,
+          "probability": 0.9484
+        },
+        {
+          "word": " the",
+          "start": 42.62,
+          "end": 42.62,
+          "probability": 0.9468
+        },
+        {
+          "word": " back",
+          "start": 42.62,
+          "end": 42.76,
+          "probability": 0.8361
+        },
+        {
+          "word": " of",
+          "start": 42.76,
+          "end": 42.84,
+          "probability": 0.9474
+        },
+        {
+          "word": " the",
+          "start": 42.84,
+          "end": 42.84,
+          "probability": 0.9475
+        },
+        {
+          "word": " back",
+          "start": 42.84,
+          "end": 42.84,
+          "probability": 0.8388
+        },
+        {
+          "word": " of",
+          "start": 42.84,
+          "end": 43.12,
+          "probability": 0.9473
+        },
+        {
+          "word": " the",
+          "start": 43.12,
+          "end": 43.12,
+          "probability": 0.946
+        },
+        {
+          "word": " back",
+          "start": 43.12,
+          "end": 43.38,
+          "probability": 0.8383
+        },
+        {
+          "word": " of",
+          "start": 43.38,
+          "end": 43.58,
+          "probability": 0.9471
+        },
+        {
+          "word": " the",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.9493
+        },
+        {
+          "word": " back",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.8401
+        },
+        {
+          "word": " of",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.9484
+        },
+        {
+          "word": " the",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.9501
+        },
+        {
+          "word": " back",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.8392
+        },
+        {
+          "word": " of",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.9477
+        },
+        {
+          "word": " the",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.9487
+        },
+        {
+          "word": " back",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.8391
+        },
+        {
+          "word": " of",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.9472
+        },
+        {
+          "word": " the",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.9504
+        },
+        {
+          "word": " back",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.8436
+        },
+        {
+          "word": " of",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.9496
+        },
+        {
+          "word": " the",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.9493
+        },
+        {
+          "word": " back",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.842
+        },
+        {
+          "word": " of",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.9501
+        },
+        {
+          "word": " the",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.9501
+        },
+        {
+          "word": " back",
+          "start": 43.58,
+          "end": 43.58,
+          "probability": 0.8422
+        },
+        {
+          "word": " of",
+          "start": 43.58,
+          "end": 43.76,
+          "probability": 0.9469
+        },
+        {
+          "word": " the",
+          "start": 43.76,
+          "end": 43.76,
+          "probability": 0.9506
+        },
+        {
+          "word": " back",
+          "start": 43.76,
+          "end": 43.76,
+          "probability": 0.8457
+        },
+        {
+          "word": " of",
+          "start": 43.76,
+          "end": 43.76,
+          "probability": 0.9489
+        },
+        {
+          "word": " the",
+          "start": 43.76,
+          "end": 44.04,
+          "probability": 0.9507
+        },
+        {
+          "word": " back",
+          "start": 44.04,
+          "end": 44.16,
+          "probability": 0.8433
+        },
+        {
+          "word": " of",
+          "start": 44.16,
+          "end": 44.78,
+          "probability": 0.9495
+        },
+        {
+          "word": " the",
+          "start": 44.78,
+          "end": 44.78,
+          "probability": 0.9526
+        },
+        {
+          "word": " back",
+          "start": 44.78,
+          "end": 44.9,
+          "probability": 0.8462
+        },
+        {
+          "word": " of",
+          "start": 44.9,
+          "end": 45.86,
+          "probability": 0.9497
+        },
+        {
+          "word": " the",
+          "start": 45.86,
+          "end": 46.02,
+          "probability": 0.9523
+        },
+        {
+          "word": " back",
+          "start": 46.02,
+          "end": 46.02,
+          "probability": 0.8462
+        },
+        {
+          "word": " of",
+          "start": 46.02,
+          "end": 46.88,
+          "probability": 0.9491
+        },
+        {
+          "word": " the",
+          "start": 46.88,
+          "end": 46.88,
+          "probability": 0.952
+        },
+        {
+          "word": " back",
+          "start": 46.88,
+          "end": 47.0,
+          "probability": 0.8483
+        },
+        {
+          "word": " of",
+          "start": 47.0,
+          "end": 47.8,
+          "probability": 0.9509
+        },
+        {
+          "word": " the",
+          "start": 47.8,
+          "end": 47.92,
+          "probability": 0.9526
+        },
+        {
+          "word": " back",
+          "start": 47.92,
+          "end": 47.96,
+          "probability": 0.8512
+        },
+        {
+          "word": " of",
+          "start": 47.96,
+          "end": 47.96,
+          "probability": 0.952
+        },
+        {
+          "word": " the",
+          "start": 47.96,
+          "end": 47.96,
+          "probability": 0.9529
+        },
+        {
+          "word": " back",
+          "start": 47.96,
+          "end": 48.66,
+          "probability": 0.8523
+        },
+        {
+          "word": " of",
+          "start": 48.66,
+          "end": 48.84,
+          "probability": 0.951
+        },
+        {
+          "word": " the",
+          "start": 48.84,
+          "end": 48.84,
+          "probability": 0.9559
+        },
+        {
+          "word": " back",
+          "start": 48.84,
+          "end": 50.46,
+          "probability": 0.8546
+        },
+        {
+          "word": " of",
+          "start": 50.46,
+          "end": 50.46,
+          "probability": 0.9519
+        },
+        {
+          "word": " the",
+          "start": 50.46,
+          "end": 50.62,
+          "probability": 0.9548
+        },
+        {
+          "word": " back",
+          "start": 50.62,
+          "end": 50.62,
+          "probability": 0.8583
+        },
+        {
+          "word": " of",
+          "start": 50.62,
+          "end": 51.2,
+          "probability": 0.9504
+        },
+        {
+          "word": " the",
+          "start": 51.2,
+          "end": 51.2,
+          "probability": 0.9547
+        },
+        {
+          "word": " back",
+          "start": 51.2,
+          "end": 51.2,
+          "probability": 0.8599
+        },
+        {
+          "word": " of",
+          "start": 51.2,
+          "end": 51.32,
+          "probability": 0.9515
+        },
+        {
+          "word": " the",
+          "start": 51.32,
+          "end": 51.5,
+          "probability": 0.9573
+        },
+        {
+          "word": " back",
+          "start": 51.5,
+          "end": 52.84,
+          "probability": 0.8591
+        },
+        {
+          "word": " of",
+          "start": 52.84,
+          "end": 53.22,
+          "probability": 0.9533
+        },
+        {
+          "word": " the",
+          "start": 53.22,
+          "end": 53.24,
+          "probability": 0.9584
+        },
+        {
+          "word": " back",
+          "start": 53.24,
+          "end": 53.24,
+          "probability": 0.8644
+        },
+        {
+          "word": " of",
+          "start": 53.24,
+          "end": 53.24,
+          "probability": 0.9532
+        },
+        {
+          "word": " the",
+          "start": 53.24,
+          "end": 53.28,
+          "probability": 0.9568
+        },
+        {
+          "word": " back",
+          "start": 53.28,
+          "end": 53.28,
+          "probability": 0.8649
+        },
+        {
+          "word": " of",
+          "start": 53.28,
+          "end": 53.28,
+          "probability": 0.9531
+        },
+        {
+          "word": " the",
+          "start": 53.28,
+          "end": 53.28,
+          "probability": 0.9573
+        },
+        {
+          "word": " back",
+          "start": 53.28,
+          "end": 53.28,
+          "probability": 0.8674
+        },
+        {
+          "word": " of",
+          "start": 53.28,
+          "end": 53.28,
+          "probability": 0.9568
+        },
+        {
+          "word": " the",
+          "start": 53.28,
+          "end": 53.28,
+          "probability": 0.9598
+        },
+        {
+          "word": " back",
+          "start": 53.28,
+          "end": 53.28,
+          "probability": 0.8682
+        },
+        {
+          "word": " of",
+          "start": 53.28,
+          "end": 53.28,
+          "probability": 0.9566
+        },
+        {
+          "word": " the",
+          "start": 53.28,
+          "end": 53.28,
+          "probability": 0.9586
+        },
+        {
+          "word": " back",
+          "start": 53.28,
+          "end": 53.5,
+          "probability": 0.8668
+        },
+        {
+          "word": " of",
+          "start": 53.5,
+          "end": 54.12,
+          "probability": 0.9537
+        },
+        {
+          "word": " the",
+          "start": 54.12,
+          "end": 54.16,
+          "probability": 0.9609
+        },
+        {
+          "word": " back",
+          "start": 54.16,
+          "end": 54.66,
+          "probability": 0.8728
+        },
+        {
+          "word": " of",
+          "start": 54.66,
+          "end": 54.96,
+          "probability": 0.9563
+        },
+        {
+          "word": " the",
+          "start": 54.96,
+          "end": 54.96,
+          "probability": 0.9599
+        },
+        {
+          "word": " back",
+          "start": 54.96,
+          "end": 55.34,
+          "probability": 0.874
+        },
+        {
+          "word": " of",
+          "start": 55.34,
+          "end": 55.46,
+          "probability": 0.9569
+        },
+        {
+          "word": " the",
+          "start": 55.46,
+          "end": 55.46,
+          "probability": 0.9613
+        },
+        {
+          "word": " back",
+          "start": 55.46,
+          "end": 55.94,
+          "probability": 0.8769
+        },
+        {
+          "word": " of",
+          "start": 55.94,
+          "end": 56.8,
+          "probability": 0.9557
+        },
+        {
+          "word": " the",
+          "start": 56.8,
+          "end": 56.8,
+          "probability": 0.9619
+        },
+        {
+          "word": " back",
+          "start": 56.8,
+          "end": 56.9,
+          "probability": 0.8806
+        },
+        {
+          "word": " of",
+          "start": 56.9,
+          "end": 56.9,
+          "probability": 0.9603
+        },
+        {
+          "word": " the",
+          "start": 56.9,
+          "end": 56.9,
+          "probability": 0.9613
+        },
+        {
+          "word": " back",
+          "start": 56.9,
+          "end": 57.5,
+          "probability": 0.8772
+        },
+        {
+          "word": " of",
+          "start": 57.5,
+          "end": 57.64,
+          "probability": 0.9608
+        },
+        {
+          "word": " the",
+          "start": 57.64,
+          "end": 57.64,
+          "probability": 0.9626
+        },
+        {
+          "word": " back",
+          "start": 57.64,
+          "end": 57.64,
+          "probability": 0.8794
+        },
+        {
+          "word": " of",
+          "start": 57.64,
+          "end": 57.64,
+          "probability": 0.9604
+        },
+        {
+          "word": " the",
+          "start": 57.64,
+          "end": 57.64,
+          "probability": 0.9641
+        },
+        {
+          "word": " back",
+          "start": 57.64,
+          "end": 57.64,
+          "probability": 0.8822
+        },
+        {
+          "word": " of",
+          "start": 57.64,
+          "end": 57.96,
+          "probability": 0.9619
+        },
+        {
+          "word": " the",
+          "start": 57.96,
+          "end": 57.96,
+          "probability": 0.9637
+        },
+        {
+          "word": " back",
+          "start": 57.96,
+          "end": 58.64,
+          "probability": 0.8829
+        },
+        {
+          "word": " of",
+          "start": 58.64,
+          "end": 59.46,
+          "probability": 0.958
+        },
+        {
+          "word": " the",
+          "start": 59.46,
+          "end": 59.46,
+          "probability": 0.9635
+        },
+        {
+          "word": " back",
+          "start": 59.46,
+          "end": 59.72,
+          "probability": 0.8859
+        },
+        {
+          "word": " of",
+          "start": 59.72,
+          "end": 59.86,
+          "probability": 0.9621
+        },
+        {
+          "word": " the",
+          "start": 59.86,
+          "end": 59.86,
+          "probability": 0.9647
+        },
+        {
+          "word": " back",
+          "start": 59.86,
+          "end": 59.98,
+          "probability": 0.8856
+        },
+        {
+          "word": " of",
+          "start": 59.98,
+          "end": 59.98,
+          "probability": 0.9622
+        },
+        {
+          "word": " the",
+          "start": 59.98,
+          "end": 59.98,
+          "probability": 0.9657
+        },
+        {
+          "word": " back",
+          "start": 59.98,
+          "end": 59.98,
+          "probability": 0.8904
+        },
+        {
+          "word": " of",
+          "start": 59.98,
+          "end": 59.98,
+          "probability": 0.9617
+        },
+        {
+          "word": " the",
+          "start": 59.98,
+          "end": 59.98,
+          "probability": 0.9659
+        },
+        {
+          "word": " back",
+          "start": 59.98,
+          "end": 60.0,
+          "probability": 0.8909
+        },
+        {
+          "word": " of",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.9645
+        },
+        {
+          "word": " the",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.9659
+        },
+        {
+          "word": " back",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.8921
+        },
+        {
+          "word": " of",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.9641
+        },
+        {
+          "word": " the",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.9671
+        },
+        {
+          "word": " back",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.8925
+        },
+        {
+          "word": " of",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.9634
+        },
+        {
+          "word": " the",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.9669
+        },
+        {
+          "word": " back",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.8936
+        },
+        {
+          "word": " of",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.9624
+        },
+        {
+          "word": " the",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.9674
+        },
+        {
+          "word": " back",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.8949
+        },
+        {
+          "word": " of",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.965
+        },
+        {
+          "word": " the",
+          "start": 60.0,
+          "end": 60.0,
+          "probability": 0.9664
+        }
+      ]
+    },
+    {
+      "start": 71.02,
+      "end": 89.56,
+      "text": " back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the",
+      "avg_logprob": -0.1528,
+      "no_speech_prob": 0.1923,
+      "compression_ratio": 29.96,
+      "words": [
+        {
+          "word": " back",
+          "start": 71.02,
+          "end": 71.26,
+          "probability": 0.0001
+        },
+        {
+          "word": " of",
+          "start": 71.26,
+          "end": 71.5,
+          "probability": 0.0091
+        },
+        {
+          "word": " the",
+          "start": 71.5,
+          "end": 76.76,
+          "probability": 0.3634
+        },
+        {
+          "word": " back",
+          "start": 76.76,
+          "end": 76.82,
+          "probability": 0.0019
+        },
+        {
+          "word": " of",
+          "start": 76.82,
+          "end": 81.4,
+          "probability": 0.6465
+        },
+        {
+          "word": " the",
+          "start": 81.4,
+          "end": 82.36,
+          "probability": 0.7257
+        },
+        {
+          "word": " back",
+          "start": 82.36,
+          "end": 83.68,
+          "probability": 0.0934
+        },
+        {
+          "word": " of",
+          "start": 83.68,
+          "end": 85.92,
+          "probability": 0.7296
+        },
+        {
+          "word": " the",
+          "start": 85.92,
+          "end": 86.78,
+          "probability": 0.8152
+        },
+        {
+          "word": " back",
+          "start": 86.78,
+          "end": 86.9,
+          "probability": 0.4932
+        },
+        {
+          "word": " of",
+          "start": 86.9,
+          "end": 87.24,
+          "probability": 0.7775
+        },
+        {
+          "word": " the",
+          "start": 87.24,
+          "end": 87.82,
+          "probability": 0.8568
+        },
+        {
+          "word": " back",
+          "start": 87.82,
+          "end": 87.86,
+          "probability": 0.59
+        },
+        {
+          "word": " of",
+          "start": 87.86,
+          "end": 87.96,
+          "probability": 0.8108
+        },
+        {
+          "word": " the",
+          "start": 87.96,
+          "end": 87.96,
+          "probability": 0.8767
+        },
+        {
+          "word": " back",
+          "start": 87.96,
+          "end": 87.96,
+          "probability": 0.6303
+        },
+        {
+          "word": " of",
+          "start": 87.96,
+          "end": 88.06,
+          "probability": 0.8336
+        },
+        {
+          "word": " the",
+          "start": 88.06,
+          "end": 88.08,
+          "probability": 0.8889
+        },
+        {
+          "word": " back",
+          "start": 88.08,
+          "end": 88.18,
+          "probability": 0.6352
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.8495
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.8955
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.6413
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.8651
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9004
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.6544
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.8774
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9032
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.6624
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.8877
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9053
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.6784
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.8979
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9086
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.6907
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9025
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9096
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.6974
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9079
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9122
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7058
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9133
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9148
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7096
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9139
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.916
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7104
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9171
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9171
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7141
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9215
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9169
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7219
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9249
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9165
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7282
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9275
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.918
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7396
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9294
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9181
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7409
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9306
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9178
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7441
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9316
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9197
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7413
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9322
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9215
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7385
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9338
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9212
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7403
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9341
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9214
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7386
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9379
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9199
+        },
+        {
+          "word": " back",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.7403
+        },
+        {
+          "word": " of",
+          "start": 88.18,
+          "end": 88.18,
+          "probability": 0.9373
+        },
+        {
+          "word": " the",
+          "start": 88.18,
+          "end": 88.2,
+          "probability": 0.9196
+        },
+        {
+          "word": " back",
+          "start": 88.2,
+          "end": 88.22,
+          "probability": 0.7403
+        },
+        {
+          "word": " of",
+          "start": 88.22,
+          "end": 88.22,
+          "probability": 0.9389
+        },
+        {
+          "word": " the",
+          "start": 88.22,
+          "end": 88.24,
+          "probability": 0.9187
+        },
+        {
+          "word": " back",
+          "start": 88.24,
+          "end": 88.26,
+          "probability": 0.7418
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9389
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9195
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7461
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9381
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9205
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7473
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9379
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9178
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7465
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9379
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9208
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7496
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9395
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9218
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7467
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9377
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9196
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7469
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9379
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.921
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7531
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9401
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9195
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7507
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9396
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9198
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7505
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9372
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9207
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7516
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9383
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9198
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7454
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9385
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9215
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7511
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9388
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9205
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7477
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9382
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9199
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7495
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.94
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9203
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7566
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9404
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9209
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7571
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.939
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9242
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7609
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9389
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9227
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7655
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9376
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.922
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.766
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9385
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9255
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7639
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9395
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9267
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.772
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9398
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.925
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7724
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9397
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9252
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7753
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9427
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9286
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7771
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9422
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9264
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7767
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9406
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9299
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7837
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9422
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9284
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7874
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9423
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9304
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7901
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9415
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9314
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.7933
+        },
+        {
+          "word": " of",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9454
+        },
+        {
+          "word": " the",
+          "start": 88.26,
+          "end": 88.26,
+          "probability": 0.9302
+        },
+        {
+          "word": " back",
+          "start": 88.26,
+          "end": 88.38,
+          "probability": 0.7898
+        },
+        {
+          "word": " of",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.9466
+        },
+        {
+          "word": " the",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.9324
+        },
+        {
+          "word": " back",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.7942
+        },
+        {
+          "word": " of",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.9456
+        },
+        {
+          "word": " the",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.9347
+        },
+        {
+          "word": " back",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.8004
+        },
+        {
+          "word": " of",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.947
+        },
+        {
+          "word": " the",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.9342
+        },
+        {
+          "word": " back",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.802
+        },
+        {
+          "word": " of",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.9438
+        },
+        {
+          "word": " the",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.9337
+        },
+        {
+          "word": " back",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.806
+        },
+        {
+          "word": " of",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.9477
+        },
+        {
+          "word": " the",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.936
+        },
+        {
+          "word": " back",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.8055
+        },
+        {
+          "word": " of",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.9473
+        },
+        {
+          "word": " the",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.9367
+        },
+        {
+          "word": " back",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.8125
+        },
+        {
+          "word": " of",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.9479
+        },
+        {
+          "word": " the",
+          "start": 88.38,
+          "end": 88.38,
+          "probability": 0.9374
+        },
+        {
+          "word": " back",
+          "start": 88.38,
+          "end": 88.44,
+          "probability": 0.8147
+        },
+        {
+          "word": " of",
+          "start": 88.44,
+          "end": 88.44,
+          "probability": 0.9511
+        },
+        {
+          "word": " the",
+          "start": 88.44,
+          "end": 88.44,
+          "probability": 0.9388
+        },
+        {
+          "word": " back",
+          "start": 88.44,
+          "end": 88.44,
+          "probability": 0.8153
+        },
+        {
+          "word": " of",
+          "start": 88.44,
+          "end": 88.44,
+          "probability": 0.9504
+        },
+        {
+          "word": " the",
+          "start": 88.44,
+          "end": 88.44,
+          "probability": 0.9402
+        },
+        {
+          "word": " back",
+          "start": 88.44,
+          "end": 88.44,
+          "probability": 0.8156
+        },
+        {
+          "word": " of",
+          "start": 88.44,
+          "end": 88.44,
+          "probability": 0.9495
+        },
+        {
+          "word": " the",
+          "start": 88.44,
+          "end": 88.44,
+          "probability": 0.9405
+        },
+        {
+          "word": " back",
+          "start": 88.44,
+          "end": 88.5,
+          "probability": 0.8186
+        },
+        {
+          "word": " of",
+          "start": 88.5,
+          "end": 88.76,
+          "probability": 0.9485
+        },
+        {
+          "word": " the",
+          "start": 88.76,
+          "end": 88.76,
+          "probability": 0.9408
+        },
+        {
+          "word": " back",
+          "start": 88.76,
+          "end": 89.12,
+          "probability": 0.8203
+        },
+        {
+          "word": " of",
+          "start": 89.12,
+          "end": 89.56,
+          "probability": 0.951
+        },
+        {
+          "word": " the",
+          "start": 89.56,
+          "end": 89.56,
+          "probability": 0.9394
+        }
+      ]
+    },
+    {
+      "start": 98.44,
+      "end": 119.54,
+      "text": " back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the",
+      "avg_logprob": -0.1105,
+      "no_speech_prob": 0.1661,
+      "compression_ratio": 29.96,
+      "words": [
+        {
+          "word": " back",
+          "start": 98.44,
+          "end": 99.4,
+          "probability": 0.0
+        },
+        {
+          "word": " of",
+          "start": 99.4,
+          "end": 99.88,
+          "probability": 0.0125
+        },
+        {
+          "word": " the",
+          "start": 99.88,
+          "end": 99.88,
+          "probability": 0.365
+        },
+        {
+          "word": " back",
+          "start": 99.88,
+          "end": 105.78,
+          "probability": 0.0013
+        },
+        {
+          "word": " of",
+          "start": 105.78,
+          "end": 109.82,
+          "probability": 0.4824
+        },
+        {
+          "word": " the",
+          "start": 109.82,
+          "end": 109.82,
+          "probability": 0.6798
+        },
+        {
+          "word": " back",
+          "start": 109.82,
+          "end": 109.82,
+          "probability": 0.1877
+        },
+        {
+          "word": " of",
+          "start": 109.82,
+          "end": 109.82,
+          "probability": 0.6249
+        },
+        {
+          "word": " the",
+          "start": 109.82,
+          "end": 109.98,
+          "probability": 0.7877
+        },
+        {
+          "word": " back",
+          "start": 109.98,
+          "end": 110.26,
+          "probability": 0.5838
+        },
+        {
+          "word": " of",
+          "start": 110.26,
+          "end": 118.98,
+          "probability": 0.7081
+        },
+        {
+          "word": " the",
+          "start": 118.98,
+          "end": 118.98,
+          "probability": 0.8381
+        },
+        {
+          "word": " back",
+          "start": 118.98,
+          "end": 118.98,
+          "probability": 0.682
+        },
+        {
+          "word": " of",
+          "start": 118.98,
+          "end": 119.46,
+          "probability": 0.7569
+        },
+        {
+          "word": " the",
+          "start": 119.46,
+          "end": 119.46,
+          "probability": 0.8623
+        },
+        {
+          "word": " back",
+          "start": 119.46,
+          "end": 119.46,
+          "probability": 0.719
+        },
+        {
+          "word": " of",
+          "start": 119.46,
+          "end": 119.54,
+          "probability": 0.7883
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8773
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7269
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8137
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.887
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7322
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8405
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8936
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7415
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.863
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8975
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7452
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8824
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.901
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7576
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8994
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9054
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7674
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9091
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9079
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7716
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9193
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9136
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7781
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.929
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9174
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7831
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9318
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9209
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7845
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9364
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9233
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7864
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9421
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9233
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7905
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9463
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9232
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7937
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9498
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9243
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8015
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9519
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9245
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7996
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9531
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9246
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7991
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9545
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9267
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7953
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9549
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9289
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7902
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9555
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9279
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7872
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9555
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9276
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7805
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9586
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9256
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7796
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9571
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9245
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7755
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9582
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9234
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7735
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9582
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9249
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7767
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9576
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9254
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7786
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9567
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9233
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7757
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9562
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9266
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7761
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9574
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9274
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7736
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9554
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9255
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7732
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9551
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.927
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7773
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9569
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9257
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7747
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9561
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9266
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7738
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9544
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9277
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7742
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9554
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9274
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7703
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9559
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9299
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7746
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9557
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9295
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7722
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9544
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9293
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7761
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9562
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9298
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7808
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.956
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9301
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7829
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9553
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9341
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7878
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.955
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9335
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7932
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9543
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9332
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7954
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9551
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9368
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.7951
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.957
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9387
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8043
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9567
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9374
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8049
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9569
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9382
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8086
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9597
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9425
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8111
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9589
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9406
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8105
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.958
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9443
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8174
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9603
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9436
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8202
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9609
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.946
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8239
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9609
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9471
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8292
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9638
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.947
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.827
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.964
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9487
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8305
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9641
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9509
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8358
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9645
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9511
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.839
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.962
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9507
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8421
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9656
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9526
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8433
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9653
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9543
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8518
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.966
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9547
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8524
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9685
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9554
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8554
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9681
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9573
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8562
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.968
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9572
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.858
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9676
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.958
+        },
+        {
+          "word": " back",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.8603
+        },
+        {
+          "word": " of",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9693
+        },
+        {
+          "word": " the",
+          "start": 119.54,
+          "end": 119.54,
+          "probability": 0.9572
+        }
+      ]
+    },
+    {
+      "start": 122.22,
+      "end": 155.49,
+      "text": " back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the",
+      "avg_logprob": -0.1134,
+      "no_speech_prob": 0.0358,
+      "compression_ratio": 29.96,
+      "words": [
+        {
+          "word": " back",
+          "start": 122.22,
+          "end": 122.64,
+          "probability": 0.0002
+        },
+        {
+          "word": " of",
+          "start": 122.64,
+          "end": 123.06,
+          "probability": 0.0027
+        },
+        {
+          "word": " the",
+          "start": 123.06,
+          "end": 127.56,
+          "probability": 0.1703
+        },
+        {
+          "word": " back",
+          "start": 127.56,
+          "end": 136.16,
+          "probability": 0.0035
+        },
+        {
+          "word": " of",
+          "start": 142.17,
+          "end": 142.99,
+          "probability": 0.5698
+        },
+        {
+          "word": " the",
+          "start": 142.99,
+          "end": 147.01,
+          "probability": 0.6555
+        },
+        {
+          "word": " back",
+          "start": 147.01,
+          "end": 150.15,
+          "probability": 0.138
+        },
+        {
+          "word": " of",
+          "start": 150.15,
+          "end": 150.85,
+          "probability": 0.7114
+        },
+        {
+          "word": " the",
+          "start": 150.85,
+          "end": 150.85,
+          "probability": 0.7779
+        },
+        {
+          "word": " back",
+          "start": 150.85,
+          "end": 154.37,
+          "probability": 0.3779
+        },
+        {
+          "word": " of",
+          "start": 154.37,
+          "end": 154.65,
+          "probability": 0.7925
+        },
+        {
+          "word": " the",
+          "start": 154.65,
+          "end": 154.65,
+          "probability": 0.8275
+        },
+        {
+          "word": " back",
+          "start": 154.65,
+          "end": 155.03,
+          "probability": 0.4533
+        },
+        {
+          "word": " of",
+          "start": 155.03,
+          "end": 155.17,
+          "probability": 0.84
+        },
+        {
+          "word": " the",
+          "start": 155.17,
+          "end": 155.17,
+          "probability": 0.8472
+        },
+        {
+          "word": " back",
+          "start": 155.17,
+          "end": 155.23,
+          "probability": 0.5023
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.8662
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.8617
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.521
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.8815
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.8695
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.548
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.8961
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.8758
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.5821
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9076
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.8807
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.6069
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.918
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.8876
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.6447
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9273
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.8952
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.6735
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9324
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9025
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.698
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9396
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9119
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.7224
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9461
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9202
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.7384
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9493
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9272
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.7531
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9536
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9323
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.7648
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9584
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9356
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.7797
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9624
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9382
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.7915
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9655
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9429
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.8073
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.968
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9459
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.813
+        },
+        {
+          "word": " of",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9704
+        },
+        {
+          "word": " the",
+          "start": 155.23,
+          "end": 155.23,
+          "probability": 0.9488
+        },
+        {
+          "word": " back",
+          "start": 155.23,
+          "end": 155.25,
+          "probability": 0.818
+        },
+        {
+          "word": " of",
+          "start": 155.25,
+          "end": 155.27,
+          "probability": 0.9727
+        },
+        {
+          "word": " the",
+          "start": 155.27,
+          "end": 155.29,
+          "probability": 0.9533
+        },
+        {
+          "word": " back",
+          "start": 155.29,
+          "end": 155.29,
+          "probability": 0.8222
+        },
+        {
+          "word": " of",
+          "start": 155.29,
+          "end": 155.29,
+          "probability": 0.9743
+        },
+        {
+          "word": " the",
+          "start": 155.29,
+          "end": 155.29,
+          "probability": 0.957
+        },
+        {
+          "word": " back",
+          "start": 155.29,
+          "end": 155.29,
+          "probability": 0.8227
+        },
+        {
+          "word": " of",
+          "start": 155.29,
+          "end": 155.29,
+          "probability": 0.9761
+        },
+        {
+          "word": " the",
+          "start": 155.29,
+          "end": 155.29,
+          "probability": 0.9582
+        },
+        {
+          "word": " back",
+          "start": 155.29,
+          "end": 155.29,
+          "probability": 0.8258
+        },
+        {
+          "word": " of",
+          "start": 155.29,
+          "end": 155.29,
+          "probability": 0.9772
+        },
+        {
+          "word": " the",
+          "start": 155.29,
+          "end": 155.29,
+          "probability": 0.9596
+        },
+        {
+          "word": " back",
+          "start": 155.29,
+          "end": 155.29,
+          "probability": 0.8262
+        },
+        {
+          "word": " of",
+          "start": 155.29,
+          "end": 155.31,
+          "probability": 0.9794
+        },
+        {
+          "word": " the",
+          "start": 155.31,
+          "end": 155.33,
+          "probability": 0.9596
+        },
+        {
+          "word": " back",
+          "start": 155.33,
+          "end": 155.35,
+          "probability": 0.8285
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.979
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9604
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.8281
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9804
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9602
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.8289
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9804
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9615
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.8322
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9802
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9621
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.8364
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9808
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9618
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.8352
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9811
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9627
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.8383
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9819
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9638
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.8365
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9816
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9626
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.8358
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9815
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9637
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.8412
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9826
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9633
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.8394
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9827
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9641
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.8398
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9817
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9651
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.841
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9825
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9645
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.8384
+        },
+        {
+          "word": " of",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9829
+        },
+        {
+          "word": " the",
+          "start": 155.35,
+          "end": 155.35,
+          "probability": 0.9658
+        },
+        {
+          "word": " back",
+          "start": 155.35,
+          "end": 155.37,
+          "probability": 0.8417
+        },
+        {
+          "word": " of",
+          "start": 155.37,
+          "end": 155.37,
+          "probability": 0.9827
+        },
+        {
+          "word": " the",
+          "start": 155.37,
+          "end": 155.37,
+          "probability": 0.9657
+        },
+        {
+          "word": " back",
+          "start": 155.37,
+          "end": 155.37,
+          "probability": 0.8391
+        },
+        {
+          "word": " of",
+          "start": 155.37,
+          "end": 155.37,
+          "probability": 0.9825
+        },
+        {
+          "word": " the",
+          "start": 155.37,
+          "end": 155.37,
+          "probability": 0.9653
+        },
+        {
+          "word": " back",
+          "start": 155.37,
+          "end": 155.37,
+          "probability": 0.8432
+        },
+        {
+          "word": " of",
+          "start": 155.37,
+          "end": 155.37,
+          "probability": 0.9829
+        },
+        {
+          "word": " the",
+          "start": 155.37,
+          "end": 155.37,
+          "probability": 0.9652
+        },
+        {
+          "word": " back",
+          "start": 155.37,
+          "end": 155.39,
+          "probability": 0.846
+        },
+        {
+          "word": " of",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9829
+        },
+        {
+          "word": " the",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.965
+        },
+        {
+          "word": " back",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.8471
+        },
+        {
+          "word": " of",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9821
+        },
+        {
+          "word": " the",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9669
+        },
+        {
+          "word": " back",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.8507
+        },
+        {
+          "word": " of",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.982
+        },
+        {
+          "word": " the",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9663
+        },
+        {
+          "word": " back",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.8546
+        },
+        {
+          "word": " of",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9818
+        },
+        {
+          "word": " the",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9659
+        },
+        {
+          "word": " back",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.8575
+        },
+        {
+          "word": " of",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9818
+        },
+        {
+          "word": " the",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9677
+        },
+        {
+          "word": " back",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.8586
+        },
+        {
+          "word": " of",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9827
+        },
+        {
+          "word": " the",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9687
+        },
+        {
+          "word": " back",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.8656
+        },
+        {
+          "word": " of",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9821
+        },
+        {
+          "word": " the",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9671
+        },
+        {
+          "word": " back",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.8654
+        },
+        {
+          "word": " of",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9823
+        },
+        {
+          "word": " the",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.968
+        },
+        {
+          "word": " back",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.8689
+        },
+        {
+          "word": " of",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9834
+        },
+        {
+          "word": " the",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9697
+        },
+        {
+          "word": " back",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.8709
+        },
+        {
+          "word": " of",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9829
+        },
+        {
+          "word": " the",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9686
+        },
+        {
+          "word": " back",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.8706
+        },
+        {
+          "word": " of",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9822
+        },
+        {
+          "word": " the",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9706
+        },
+        {
+          "word": " back",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.8748
+        },
+        {
+          "word": " of",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9824
+        },
+        {
+          "word": " the",
+          "start": 155.39,
+          "end": 155.39,
+          "probability": 0.9698
+        },
+        {
+          "word": " back",
+          "start": 155.39,
+          "end": 155.49,
+          "probability": 0.8774
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9824
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9706
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.8801
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9822
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9713
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.884
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9836
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9709
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.8834
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9834
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9712
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.8865
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9831
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9723
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.8899
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9835
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9724
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.8917
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9814
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9715
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.8927
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9828
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9723
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.8949
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9827
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9734
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9005
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9824
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.973
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9014
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9838
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9732
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9016
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9833
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9735
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9043
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9832
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9733
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9049
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9824
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9736
+        },
+        {
+          "word": " back",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9061
+        },
+        {
+          "word": " of",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9833
+        },
+        {
+          "word": " the",
+          "start": 155.49,
+          "end": 155.49,
+          "probability": 0.9729
+        }
+      ]
+    },
+    {
+      "start": 157.49,
+      "end": 173.88,
+      "text": " back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the back of the",
+      "avg_logprob": -0.1344,
+      "no_speech_prob": 0.0733,
+      "compression_ratio": 29.96,
+      "words": [
+        {
+          "word": " back",
+          "start": 157.49,
+          "end": 157.93,
+          "probability": 0.0
+        },
+        {
+          "word": " of",
+          "start": 157.93,
+          "end": 158.15,
+          "probability": 0.0049
+        },
+        {
+          "word": " the",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.393
+        },
+        {
+          "word": " back",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.0023
+        },
+        {
+          "word": " of",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.5115
+        },
+        {
+          "word": " the",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.6904
+        },
+        {
+          "word": " back",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.0603
+        },
+        {
+          "word": " of",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.693
+        },
+        {
+          "word": " the",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.7837
+        },
+        {
+          "word": " back",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.263
+        },
+        {
+          "word": " of",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.7843
+        },
+        {
+          "word": " the",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.829
+        },
+        {
+          "word": " back",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.3664
+        },
+        {
+          "word": " of",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.8319
+        },
+        {
+          "word": " the",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.8507
+        },
+        {
+          "word": " back",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.4259
+        },
+        {
+          "word": " of",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.8571
+        },
+        {
+          "word": " the",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.864
+        },
+        {
+          "word": " back",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.4463
+        },
+        {
+          "word": " of",
+          "start": 158.15,
+          "end": 158.15,
+          "probability": 0.8723
+        },
+        {
+          "word": " the",
+          "start": 158.15,
+          "end": 158.43,
+          "probability": 0.8703
+        },
+        {
+          "word": " back",
+          "start": 158.43,
+          "end": 158.59,
+          "probability": 0.4696
+        },
+        {
+          "word": " of",
+          "start": 158.59,
+          "end": 158.59,
+          "probability": 0.884
+        },
+        {
+          "word": " the",
+          "start": 158.59,
+          "end": 160.63,
+          "probability": 0.8753
+        },
+        {
+          "word": " back",
+          "start": 160.63,
+          "end": 160.63,
+          "probability": 0.5001
+        },
+        {
+          "word": " of",
+          "start": 160.63,
+          "end": 160.63,
+          "probability": 0.8946
+        },
+        {
+          "word": " the",
+          "start": 160.63,
+          "end": 160.65,
+          "probability": 0.8784
+        },
+        {
+          "word": " back",
+          "start": 160.65,
+          "end": 160.83,
+          "probability": 0.5208
+        },
+        {
+          "word": " of",
+          "start": 160.83,
+          "end": 160.83,
+          "probability": 0.9038
+        },
+        {
+          "word": " the",
+          "start": 160.83,
+          "end": 160.85,
+          "probability": 0.8829
+        },
+        {
+          "word": " back",
+          "start": 160.85,
+          "end": 160.85,
+          "probability": 0.5609
+        },
+        {
+          "word": " of",
+          "start": 160.85,
+          "end": 160.85,
+          "probability": 0.914
+        },
+        {
+          "word": " the",
+          "start": 160.85,
+          "end": 160.87,
+          "probability": 0.8892
+        },
+        {
+          "word": " back",
+          "start": 160.87,
+          "end": 160.87,
+          "probability": 0.5877
+        },
+        {
+          "word": " of",
+          "start": 160.87,
+          "end": 160.87,
+          "probability": 0.9193
+        },
+        {
+          "word": " the",
+          "start": 160.87,
+          "end": 161.47,
+          "probability": 0.8939
+        },
+        {
+          "word": " back",
+          "start": 161.47,
+          "end": 161.47,
+          "probability": 0.6107
+        },
+        {
+          "word": " of",
+          "start": 163.94,
+          "end": 164.3,
+          "probability": 0.9265
+        },
+        {
+          "word": " the",
+          "start": 164.3,
+          "end": 164.38,
+          "probability": 0.9008
+        },
+        {
+          "word": " back",
+          "start": 164.38,
+          "end": 164.38,
+          "probability": 0.6357
+        },
+        {
+          "word": " of",
+          "start": 164.38,
+          "end": 164.38,
+          "probability": 0.9345
+        },
+        {
+          "word": " the",
+          "start": 164.38,
+          "end": 164.38,
+          "probability": 0.9081
+        },
+        {
+          "word": " back",
+          "start": 164.38,
+          "end": 164.38,
+          "probability": 0.6487
+        },
+        {
+          "word": " of",
+          "start": 164.38,
+          "end": 164.38,
+          "probability": 0.9386
+        },
+        {
+          "word": " the",
+          "start": 164.38,
+          "end": 164.38,
+          "probability": 0.9121
+        },
+        {
+          "word": " back",
+          "start": 164.38,
+          "end": 164.38,
+          "probability": 0.6639
+        },
+        {
+          "word": " of",
+          "start": 164.38,
+          "end": 164.38,
+          "probability": 0.9431
+        },
+        {
+          "word": " the",
+          "start": 164.38,
+          "end": 164.4,
+          "probability": 0.9165
+        },
+        {
+          "word": " back",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.6778
+        },
+        {
+          "word": " of",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.9479
+        },
+        {
+          "word": " the",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.9185
+        },
+        {
+          "word": " back",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.6951
+        },
+        {
+          "word": " of",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.9526
+        },
+        {
+          "word": " the",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.9197
+        },
+        {
+          "word": " back",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.7106
+        },
+        {
+          "word": " of",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.9559
+        },
+        {
+          "word": " the",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.9242
+        },
+        {
+          "word": " back",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.7306
+        },
+        {
+          "word": " of",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.9575
+        },
+        {
+          "word": " the",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.9256
+        },
+        {
+          "word": " back",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.7378
+        },
+        {
+          "word": " of",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.9595
+        },
+        {
+          "word": " the",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.9273
+        },
+        {
+          "word": " back",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.746
+        },
+        {
+          "word": " of",
+          "start": 164.4,
+          "end": 164.4,
+          "probability": 0.9607
+        },
+        {
+          "word": " the",
+          "start": 164.4,
+          "end": 164.44,
+          "probability": 0.9315
+        },
+        {
+          "word": " back",
+          "start": 164.44,
+          "end": 164.56,
+          "probability": 0.752
+        },
+        {
+          "word": " of",
+          "start": 164.56,
+          "end": 164.64,
+          "probability": 0.9615
+        },
+        {
+          "word": " the",
+          "start": 164.64,
+          "end": 164.64,
+          "probability": 0.9354
+        },
+        {
+          "word": " back",
+          "start": 164.64,
+          "end": 165.02,
+          "probability": 0.7539
+        },
+        {
+          "word": " of",
+          "start": 165.02,
+          "end": 165.02,
+          "probability": 0.9627
+        },
+        {
+          "word": " the",
+          "start": 165.02,
+          "end": 165.62,
+          "probability": 0.9358
+        },
+        {
+          "word": " back",
+          "start": 165.62,
+          "end": 165.62,
+          "probability": 0.7615
+        },
+        {
+          "word": " of",
+          "start": 165.62,
+          "end": 165.62,
+          "probability": 0.9627
+        },
+        {
+          "word": " the",
+          "start": 165.62,
+          "end": 165.72,
+          "probability": 0.9372
+        },
+        {
+          "word": " back",
+          "start": 165.72,
+          "end": 165.72,
+          "probability": 0.7647
+        },
+        {
+          "word": " of",
+          "start": 165.72,
+          "end": 167.94,
+          "probability": 0.9657
+        },
+        {
+          "word": " the",
+          "start": 167.94,
+          "end": 167.94,
+          "probability": 0.9356
+        },
+        {
+          "word": " back",
+          "start": 167.94,
+          "end": 168.48,
+          "probability": 0.7688
+        },
+        {
+          "word": " of",
+          "start": 168.48,
+          "end": 168.48,
+          "probability": 0.9652
+        },
+        {
+          "word": " the",
+          "start": 168.48,
+          "end": 168.48,
+          "probability": 0.9366
+        },
+        {
+          "word": " back",
+          "start": 168.48,
+          "end": 168.48,
+          "probability": 0.7732
+        },
+        {
+          "word": " of",
+          "start": 168.48,
+          "end": 168.48,
+          "probability": 0.9656
+        },
+        {
+          "word": " the",
+          "start": 168.48,
+          "end": 168.74,
+          "probability": 0.9359
+        },
+        {
+          "word": " back",
+          "start": 168.74,
+          "end": 168.74,
+          "probability": 0.7769
+        },
+        {
+          "word": " of",
+          "start": 168.74,
+          "end": 168.74,
+          "probability": 0.966
+        },
+        {
+          "word": " the",
+          "start": 168.74,
+          "end": 168.74,
+          "probability": 0.9377
+        },
+        {
+          "word": " back",
+          "start": 168.74,
+          "end": 168.74,
+          "probability": 0.7846
+        },
+        {
+          "word": " of",
+          "start": 168.74,
+          "end": 168.74,
+          "probability": 0.9648
+        },
+        {
+          "word": " the",
+          "start": 168.74,
+          "end": 168.74,
+          "probability": 0.9388
+        },
+        {
+          "word": " back",
+          "start": 168.74,
+          "end": 168.74,
+          "probability": 0.7927
+        },
+        {
+          "word": " of",
+          "start": 168.74,
+          "end": 168.74,
+          "probability": 0.9644
+        },
+        {
+          "word": " the",
+          "start": 168.74,
+          "end": 168.82,
+          "probability": 0.937
+        },
+        {
+          "word": " back",
+          "start": 168.82,
+          "end": 168.82,
+          "probability": 0.794
+        },
+        {
+          "word": " of",
+          "start": 168.82,
+          "end": 169.58,
+          "probability": 0.9645
+        },
+        {
+          "word": " the",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9402
+        },
+        {
+          "word": " back",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.7999
+        },
+        {
+          "word": " of",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9652
+        },
+        {
+          "word": " the",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9411
+        },
+        {
+          "word": " back",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.801
+        },
+        {
+          "word": " of",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9642
+        },
+        {
+          "word": " the",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9388
+        },
+        {
+          "word": " back",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.8021
+        },
+        {
+          "word": " of",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9634
+        },
+        {
+          "word": " the",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9401
+        },
+        {
+          "word": " back",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.8102
+        },
+        {
+          "word": " of",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9652
+        },
+        {
+          "word": " the",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9391
+        },
+        {
+          "word": " back",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.8093
+        },
+        {
+          "word": " of",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9652
+        },
+        {
+          "word": " the",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9399
+        },
+        {
+          "word": " back",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.8094
+        },
+        {
+          "word": " of",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9631
+        },
+        {
+          "word": " the",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9411
+        },
+        {
+          "word": " back",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.8137
+        },
+        {
+          "word": " of",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9639
+        },
+        {
+          "word": " the",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9404
+        },
+        {
+          "word": " back",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.8122
+        },
+        {
+          "word": " of",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9645
+        },
+        {
+          "word": " the",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.943
+        },
+        {
+          "word": " back",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.8179
+        },
+        {
+          "word": " of",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9643
+        },
+        {
+          "word": " the",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9427
+        },
+        {
+          "word": " back",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.8186
+        },
+        {
+          "word": " of",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9634
+        },
+        {
+          "word": " the",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.9423
+        },
+        {
+          "word": " back",
+          "start": 169.58,
+          "end": 169.58,
+          "probability": 0.8237
+        },
+        {
+          "word": " of",
+          "start": 169.58,
+          "end": 170.66,
+          "probability": 0.9641
+        },
+        {
+          "word": " the",
+          "start": 170.66,
+          "end": 170.66,
+          "probability": 0.9421
+        },
+        {
+          "word": " back",
+          "start": 170.66,
+          "end": 170.68,
+          "probability": 0.8283
+        },
+        {
+          "word": " of",
+          "start": 170.68,
+          "end": 170.68,
+          "probability": 0.9642
+        },
+        {
+          "word": " the",
+          "start": 170.68,
+          "end": 170.68,
+          "probability": 0.9427
+        },
+        {
+          "word": " back",
+          "start": 170.68,
+          "end": 170.68,
+          "probability": 0.8299
+        },
+        {
+          "word": " of",
+          "start": 170.68,
+          "end": 170.68,
+          "probability": 0.9633
+        },
+        {
+          "word": " the",
+          "start": 170.68,
+          "end": 170.68,
+          "probability": 0.946
+        },
+        {
+          "word": " back",
+          "start": 170.68,
+          "end": 170.68,
+          "probability": 0.835
+        },
+        {
+          "word": " of",
+          "start": 170.68,
+          "end": 170.68,
+          "probability": 0.9632
+        },
+        {
+          "word": " the",
+          "start": 170.68,
+          "end": 170.68,
+          "probability": 0.9446
+        },
+        {
+          "word": " back",
+          "start": 170.68,
+          "end": 170.68,
+          "probability": 0.8397
+        },
+        {
+          "word": " of",
+          "start": 170.68,
+          "end": 170.68,
+          "probability": 0.962
+        },
+        {
+          "word": " the",
+          "start": 170.68,
+          "end": 170.68,
+          "probability": 0.9448
+        },
+        {
+          "word": " back",
+          "start": 170.68,
+          "end": 170.86,
+          "probability": 0.8414
+        },
+        {
+          "word": " of",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.9625
+        },
+        {
+          "word": " the",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.9477
+        },
+        {
+          "word": " back",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.8428
+        },
+        {
+          "word": " of",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.9638
+        },
+        {
+          "word": " the",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.9489
+        },
+        {
+          "word": " back",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.8503
+        },
+        {
+          "word": " of",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.9636
+        },
+        {
+          "word": " the",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.9472
+        },
+        {
+          "word": " back",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.8508
+        },
+        {
+          "word": " of",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.9634
+        },
+        {
+          "word": " the",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.9479
+        },
+        {
+          "word": " back",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.8548
+        },
+        {
+          "word": " of",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.9663
+        },
+        {
+          "word": " the",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.9512
+        },
+        {
+          "word": " back",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.8561
+        },
+        {
+          "word": " of",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.9656
+        },
+        {
+          "word": " the",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.9494
+        },
+        {
+          "word": " back",
+          "start": 170.86,
+          "end": 170.86,
+          "probability": 0.855
+        },
+        {
+          "word": " of",
+          "start": 170.86,
+          "end": 172.34,
+          "probability": 0.964
+        },
+        {
+          "word": " the",
+          "start": 172.34,
+          "end": 172.34,
+          "probability": 0.9528
+        },
+        {
+          "word": " back",
+          "start": 172.34,
+          "end": 172.34,
+          "probability": 0.862
+        },
+        {
+          "word": " of",
+          "start": 172.34,
+          "end": 172.34,
+          "probability": 0.9655
+        },
+        {
+          "word": " the",
+          "start": 172.34,
+          "end": 172.34,
+          "probability": 0.9516
+        },
+        {
+          "word": " back",
+          "start": 172.34,
+          "end": 172.34,
+          "probability": 0.8643
+        },
+        {
+          "word": " of",
+          "start": 172.34,
+          "end": 172.36,
+          "probability": 0.966
+        },
+        {
+          "word": " the",
+          "start": 172.36,
+          "end": 172.36,
+          "probability": 0.9537
+        },
+        {
+          "word": " back",
+          "start": 172.36,
+          "end": 173.38,
+          "probability": 0.8668
+        },
+        {
+          "word": " of",
+          "start": 173.38,
+          "end": 173.88,
+          "probability": 0.9652
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9547
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8714
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9687
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.954
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8691
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9688
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9555
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8719
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9683
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9572
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8765
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9693
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9572
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8783
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9663
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9567
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8812
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9695
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9585
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8813
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9697
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9599
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8875
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9697
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9599
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8882
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9717
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9605
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8879
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9714
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9618
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8892
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9711
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9619
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8905
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9705
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9626
+        },
+        {
+          "word": " back",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.8924
+        },
+        {
+          "word": " of",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9724
+        },
+        {
+          "word": " the",
+          "start": 173.88,
+          "end": 173.88,
+          "probability": 0.9616
+        }
+      ]
+    }
+  ],
+  "total_segments": 6
+}

@@ -1,0 +1,1363 @@
+{
+  "filename": "20251122_145521_539.wav",
+  "filepath": "~/Library/Caches/johnny-voice-assistant/recordings/20251122_145521_539.wav",
+  "recording_length_seconds": 19.69,
+  "transcription_time_seconds": 3.24,
+  "transcription": "a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 19.69,
+  "duration_after_vad": 17.25,
+  "all_language_probs": {},
+  "segments": [
+    {
+      "start": 0.43,
+      "end": 17.65,
+      "text": " a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit of a little bit",
+      "avg_logprob": -0.1874,
+      "no_speech_prob": 0.0981,
+      "compression_ratio": 27.03,
+      "words": [
+        {
+          "word": " a",
+          "start": 0.43,
+          "end": 0.75,
+          "probability": 0.04
+        },
+        {
+          "word": " little",
+          "start": 0.75,
+          "end": 0.91,
+          "probability": 0.0137
+        },
+        {
+          "word": " bit",
+          "start": 0.91,
+          "end": 0.91,
+          "probability": 0.4218
+        },
+        {
+          "word": " of",
+          "start": 0.91,
+          "end": 0.91,
+          "probability": 0.6281
+        },
+        {
+          "word": " a",
+          "start": 0.91,
+          "end": 0.97,
+          "probability": 0.4146
+        },
+        {
+          "word": " little",
+          "start": 0.97,
+          "end": 1.11,
+          "probability": 0.0658
+        },
+        {
+          "word": " bit",
+          "start": 1.11,
+          "end": 1.51,
+          "probability": 0.6457
+        },
+        {
+          "word": " of",
+          "start": 1.51,
+          "end": 1.81,
+          "probability": 0.7248
+        },
+        {
+          "word": " a",
+          "start": 1.81,
+          "end": 1.89,
+          "probability": 0.5375
+        },
+        {
+          "word": " little",
+          "start": 1.89,
+          "end": 1.89,
+          "probability": 0.5734
+        },
+        {
+          "word": " bit",
+          "start": 1.89,
+          "end": 1.89,
+          "probability": 0.5191
+        },
+        {
+          "word": " of",
+          "start": 1.89,
+          "end": 1.89,
+          "probability": 0.7178
+        },
+        {
+          "word": " a",
+          "start": 1.89,
+          "end": 2.01,
+          "probability": 0.5778
+        },
+        {
+          "word": " little",
+          "start": 2.01,
+          "end": 2.15,
+          "probability": 0.7347
+        },
+        {
+          "word": " bit",
+          "start": 2.15,
+          "end": 2.69,
+          "probability": 0.5546
+        },
+        {
+          "word": " of",
+          "start": 2.69,
+          "end": 2.89,
+          "probability": 0.7647
+        },
+        {
+          "word": " a",
+          "start": 2.89,
+          "end": 2.89,
+          "probability": 0.6001
+        },
+        {
+          "word": " little",
+          "start": 2.89,
+          "end": 2.89,
+          "probability": 0.7875
+        },
+        {
+          "word": " bit",
+          "start": 2.89,
+          "end": 2.89,
+          "probability": 0.6816
+        },
+        {
+          "word": " of",
+          "start": 2.89,
+          "end": 2.95,
+          "probability": 0.8087
+        },
+        {
+          "word": " a",
+          "start": 2.95,
+          "end": 3.03,
+          "probability": 0.5983
+        },
+        {
+          "word": " little",
+          "start": 3.03,
+          "end": 3.15,
+          "probability": 0.8352
+        },
+        {
+          "word": " bit",
+          "start": 3.15,
+          "end": 3.49,
+          "probability": 0.8172
+        },
+        {
+          "word": " of",
+          "start": 3.49,
+          "end": 3.49,
+          "probability": 0.8451
+        },
+        {
+          "word": " a",
+          "start": 3.49,
+          "end": 3.49,
+          "probability": 0.599
+        },
+        {
+          "word": " little",
+          "start": 3.49,
+          "end": 3.49,
+          "probability": 0.8633
+        },
+        {
+          "word": " bit",
+          "start": 3.49,
+          "end": 3.59,
+          "probability": 0.8692
+        },
+        {
+          "word": " of",
+          "start": 3.59,
+          "end": 3.59,
+          "probability": 0.8561
+        },
+        {
+          "word": " a",
+          "start": 3.59,
+          "end": 3.59,
+          "probability": 0.6023
+        },
+        {
+          "word": " little",
+          "start": 3.59,
+          "end": 3.59,
+          "probability": 0.8885
+        },
+        {
+          "word": " bit",
+          "start": 3.59,
+          "end": 3.65,
+          "probability": 0.8957
+        },
+        {
+          "word": " of",
+          "start": 3.65,
+          "end": 3.69,
+          "probability": 0.8669
+        },
+        {
+          "word": " a",
+          "start": 3.69,
+          "end": 5.67,
+          "probability": 0.6116
+        },
+        {
+          "word": " little",
+          "start": 5.67,
+          "end": 5.89,
+          "probability": 0.9045
+        },
+        {
+          "word": " bit",
+          "start": 5.89,
+          "end": 6.23,
+          "probability": 0.9069
+        },
+        {
+          "word": " of",
+          "start": 6.23,
+          "end": 6.23,
+          "probability": 0.8721
+        },
+        {
+          "word": " a",
+          "start": 6.23,
+          "end": 6.23,
+          "probability": 0.627
+        },
+        {
+          "word": " little",
+          "start": 6.23,
+          "end": 6.73,
+          "probability": 0.918
+        },
+        {
+          "word": " bit",
+          "start": 6.73,
+          "end": 6.99,
+          "probability": 0.9095
+        },
+        {
+          "word": " of",
+          "start": 6.99,
+          "end": 7.13,
+          "probability": 0.882
+        },
+        {
+          "word": " a",
+          "start": 7.13,
+          "end": 7.13,
+          "probability": 0.6465
+        },
+        {
+          "word": " little",
+          "start": 7.13,
+          "end": 7.13,
+          "probability": 0.9332
+        },
+        {
+          "word": " bit",
+          "start": 7.13,
+          "end": 7.13,
+          "probability": 0.9143
+        },
+        {
+          "word": " of",
+          "start": 7.13,
+          "end": 7.33,
+          "probability": 0.893
+        },
+        {
+          "word": " a",
+          "start": 7.33,
+          "end": 7.33,
+          "probability": 0.6701
+        },
+        {
+          "word": " little",
+          "start": 7.33,
+          "end": 7.33,
+          "probability": 0.9392
+        },
+        {
+          "word": " bit",
+          "start": 7.33,
+          "end": 7.45,
+          "probability": 0.9184
+        },
+        {
+          "word": " of",
+          "start": 7.45,
+          "end": 7.45,
+          "probability": 0.897
+        },
+        {
+          "word": " a",
+          "start": 7.45,
+          "end": 7.63,
+          "probability": 0.6993
+        },
+        {
+          "word": " little",
+          "start": 7.63,
+          "end": 7.63,
+          "probability": 0.9458
+        },
+        {
+          "word": " bit",
+          "start": 7.63,
+          "end": 7.63,
+          "probability": 0.9193
+        },
+        {
+          "word": " of",
+          "start": 7.63,
+          "end": 7.63,
+          "probability": 0.897
+        },
+        {
+          "word": " a",
+          "start": 7.63,
+          "end": 8.09,
+          "probability": 0.7212
+        },
+        {
+          "word": " little",
+          "start": 8.09,
+          "end": 8.09,
+          "probability": 0.951
+        },
+        {
+          "word": " bit",
+          "start": 8.09,
+          "end": 8.09,
+          "probability": 0.9208
+        },
+        {
+          "word": " of",
+          "start": 8.09,
+          "end": 8.09,
+          "probability": 0.8939
+        },
+        {
+          "word": " a",
+          "start": 8.09,
+          "end": 8.09,
+          "probability": 0.7312
+        },
+        {
+          "word": " little",
+          "start": 8.09,
+          "end": 8.09,
+          "probability": 0.9526
+        },
+        {
+          "word": " bit",
+          "start": 8.09,
+          "end": 8.09,
+          "probability": 0.9168
+        },
+        {
+          "word": " of",
+          "start": 8.09,
+          "end": 8.09,
+          "probability": 0.896
+        },
+        {
+          "word": " a",
+          "start": 8.09,
+          "end": 8.09,
+          "probability": 0.7482
+        },
+        {
+          "word": " little",
+          "start": 8.09,
+          "end": 8.09,
+          "probability": 0.9531
+        },
+        {
+          "word": " bit",
+          "start": 8.09,
+          "end": 8.09,
+          "probability": 0.9059
+        },
+        {
+          "word": " of",
+          "start": 8.09,
+          "end": 8.09,
+          "probability": 0.8914
+        },
+        {
+          "word": " a",
+          "start": 8.09,
+          "end": 8.11,
+          "probability": 0.7605
+        },
+        {
+          "word": " little",
+          "start": 8.11,
+          "end": 8.11,
+          "probability": 0.9567
+        },
+        {
+          "word": " bit",
+          "start": 8.11,
+          "end": 8.21,
+          "probability": 0.8983
+        },
+        {
+          "word": " of",
+          "start": 8.21,
+          "end": 8.27,
+          "probability": 0.8915
+        },
+        {
+          "word": " a",
+          "start": 8.27,
+          "end": 8.53,
+          "probability": 0.7715
+        },
+        {
+          "word": " little",
+          "start": 8.53,
+          "end": 8.53,
+          "probability": 0.9564
+        },
+        {
+          "word": " bit",
+          "start": 8.53,
+          "end": 8.95,
+          "probability": 0.8868
+        },
+        {
+          "word": " of",
+          "start": 8.95,
+          "end": 9.15,
+          "probability": 0.8992
+        },
+        {
+          "word": " a",
+          "start": 9.15,
+          "end": 9.15,
+          "probability": 0.7925
+        },
+        {
+          "word": " little",
+          "start": 9.15,
+          "end": 9.37,
+          "probability": 0.9588
+        },
+        {
+          "word": " bit",
+          "start": 9.37,
+          "end": 9.37,
+          "probability": 0.8786
+        },
+        {
+          "word": " of",
+          "start": 9.37,
+          "end": 9.37,
+          "probability": 0.8976
+        },
+        {
+          "word": " a",
+          "start": 9.37,
+          "end": 9.37,
+          "probability": 0.8012
+        },
+        {
+          "word": " little",
+          "start": 9.37,
+          "end": 9.41,
+          "probability": 0.9602
+        },
+        {
+          "word": " bit",
+          "start": 9.41,
+          "end": 9.41,
+          "probability": 0.865
+        },
+        {
+          "word": " of",
+          "start": 9.41,
+          "end": 9.41,
+          "probability": 0.9038
+        },
+        {
+          "word": " a",
+          "start": 9.41,
+          "end": 9.41,
+          "probability": 0.8095
+        },
+        {
+          "word": " little",
+          "start": 9.41,
+          "end": 9.51,
+          "probability": 0.9616
+        },
+        {
+          "word": " bit",
+          "start": 9.51,
+          "end": 9.53,
+          "probability": 0.8634
+        },
+        {
+          "word": " of",
+          "start": 9.53,
+          "end": 9.67,
+          "probability": 0.8978
+        },
+        {
+          "word": " a",
+          "start": 9.67,
+          "end": 10.07,
+          "probability": 0.8135
+        },
+        {
+          "word": " little",
+          "start": 10.07,
+          "end": 10.17,
+          "probability": 0.9599
+        },
+        {
+          "word": " bit",
+          "start": 10.17,
+          "end": 10.33,
+          "probability": 0.8543
+        },
+        {
+          "word": " of",
+          "start": 10.33,
+          "end": 10.33,
+          "probability": 0.8964
+        },
+        {
+          "word": " a",
+          "start": 10.33,
+          "end": 10.37,
+          "probability": 0.8234
+        },
+        {
+          "word": " little",
+          "start": 10.37,
+          "end": 10.37,
+          "probability": 0.9605
+        },
+        {
+          "word": " bit",
+          "start": 10.37,
+          "end": 10.37,
+          "probability": 0.8454
+        },
+        {
+          "word": " of",
+          "start": 10.37,
+          "end": 10.37,
+          "probability": 0.8902
+        },
+        {
+          "word": " a",
+          "start": 10.37,
+          "end": 10.77,
+          "probability": 0.8262
+        },
+        {
+          "word": " little",
+          "start": 10.77,
+          "end": 10.77,
+          "probability": 0.9591
+        },
+        {
+          "word": " bit",
+          "start": 10.77,
+          "end": 11.03,
+          "probability": 0.8426
+        },
+        {
+          "word": " of",
+          "start": 11.03,
+          "end": 11.03,
+          "probability": 0.8932
+        },
+        {
+          "word": " a",
+          "start": 11.03,
+          "end": 11.05,
+          "probability": 0.8343
+        },
+        {
+          "word": " little",
+          "start": 11.05,
+          "end": 11.57,
+          "probability": 0.9602
+        },
+        {
+          "word": " bit",
+          "start": 11.57,
+          "end": 11.57,
+          "probability": 0.8392
+        },
+        {
+          "word": " of",
+          "start": 11.57,
+          "end": 11.57,
+          "probability": 0.8888
+        },
+        {
+          "word": " a",
+          "start": 11.57,
+          "end": 11.63,
+          "probability": 0.8354
+        },
+        {
+          "word": " little",
+          "start": 11.63,
+          "end": 12.11,
+          "probability": 0.9585
+        },
+        {
+          "word": " bit",
+          "start": 12.11,
+          "end": 12.23,
+          "probability": 0.836
+        },
+        {
+          "word": " of",
+          "start": 12.23,
+          "end": 12.23,
+          "probability": 0.885
+        },
+        {
+          "word": " a",
+          "start": 12.23,
+          "end": 12.23,
+          "probability": 0.8427
+        },
+        {
+          "word": " little",
+          "start": 12.23,
+          "end": 12.23,
+          "probability": 0.9582
+        },
+        {
+          "word": " bit",
+          "start": 12.23,
+          "end": 12.23,
+          "probability": 0.8303
+        },
+        {
+          "word": " of",
+          "start": 12.23,
+          "end": 12.23,
+          "probability": 0.8824
+        },
+        {
+          "word": " a",
+          "start": 12.23,
+          "end": 12.23,
+          "probability": 0.8433
+        },
+        {
+          "word": " little",
+          "start": 12.23,
+          "end": 12.23,
+          "probability": 0.959
+        },
+        {
+          "word": " bit",
+          "start": 12.23,
+          "end": 12.23,
+          "probability": 0.8169
+        },
+        {
+          "word": " of",
+          "start": 12.23,
+          "end": 12.23,
+          "probability": 0.8827
+        },
+        {
+          "word": " a",
+          "start": 12.23,
+          "end": 12.23,
+          "probability": 0.8549
+        },
+        {
+          "word": " little",
+          "start": 12.23,
+          "end": 12.23,
+          "probability": 0.9602
+        },
+        {
+          "word": " bit",
+          "start": 12.23,
+          "end": 12.25,
+          "probability": 0.8021
+        },
+        {
+          "word": " of",
+          "start": 12.25,
+          "end": 12.25,
+          "probability": 0.8841
+        },
+        {
+          "word": " a",
+          "start": 12.25,
+          "end": 12.45,
+          "probability": 0.851
+        },
+        {
+          "word": " little",
+          "start": 12.45,
+          "end": 13.19,
+          "probability": 0.9614
+        },
+        {
+          "word": " bit",
+          "start": 13.19,
+          "end": 13.19,
+          "probability": 0.8029
+        },
+        {
+          "word": " of",
+          "start": 13.19,
+          "end": 13.19,
+          "probability": 0.887
+        },
+        {
+          "word": " a",
+          "start": 13.19,
+          "end": 13.19,
+          "probability": 0.8573
+        },
+        {
+          "word": " little",
+          "start": 13.19,
+          "end": 13.31,
+          "probability": 0.9621
+        },
+        {
+          "word": " bit",
+          "start": 13.31,
+          "end": 15.39,
+          "probability": 0.8139
+        },
+        {
+          "word": " of",
+          "start": 15.39,
+          "end": 15.41,
+          "probability": 0.8915
+        },
+        {
+          "word": " a",
+          "start": 15.41,
+          "end": 15.41,
+          "probability": 0.8588
+        },
+        {
+          "word": " little",
+          "start": 15.41,
+          "end": 15.41,
+          "probability": 0.962
+        },
+        {
+          "word": " bit",
+          "start": 15.41,
+          "end": 15.41,
+          "probability": 0.8153
+        },
+        {
+          "word": " of",
+          "start": 15.41,
+          "end": 15.63,
+          "probability": 0.8933
+        },
+        {
+          "word": " a",
+          "start": 15.63,
+          "end": 15.63,
+          "probability": 0.8627
+        },
+        {
+          "word": " little",
+          "start": 15.63,
+          "end": 15.85,
+          "probability": 0.9628
+        },
+        {
+          "word": " bit",
+          "start": 15.85,
+          "end": 15.85,
+          "probability": 0.8328
+        },
+        {
+          "word": " of",
+          "start": 15.85,
+          "end": 15.85,
+          "probability": 0.8918
+        },
+        {
+          "word": " a",
+          "start": 15.85,
+          "end": 15.95,
+          "probability": 0.8593
+        },
+        {
+          "word": " little",
+          "start": 15.95,
+          "end": 16.83,
+          "probability": 0.9625
+        },
+        {
+          "word": " bit",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8357
+        },
+        {
+          "word": " of",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8935
+        },
+        {
+          "word": " a",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8648
+        },
+        {
+          "word": " little",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.9626
+        },
+        {
+          "word": " bit",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8323
+        },
+        {
+          "word": " of",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8983
+        },
+        {
+          "word": " a",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8683
+        },
+        {
+          "word": " little",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.9648
+        },
+        {
+          "word": " bit",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8343
+        },
+        {
+          "word": " of",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8969
+        },
+        {
+          "word": " a",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8655
+        },
+        {
+          "word": " little",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.9659
+        },
+        {
+          "word": " bit",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8476
+        },
+        {
+          "word": " of",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.9072
+        },
+        {
+          "word": " a",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8758
+        },
+        {
+          "word": " little",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.9658
+        },
+        {
+          "word": " bit",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8522
+        },
+        {
+          "word": " of",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.9102
+        },
+        {
+          "word": " a",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8724
+        },
+        {
+          "word": " little",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.9671
+        },
+        {
+          "word": " bit",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8514
+        },
+        {
+          "word": " of",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.9078
+        },
+        {
+          "word": " a",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8775
+        },
+        {
+          "word": " little",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.9673
+        },
+        {
+          "word": " bit",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.8528
+        },
+        {
+          "word": " of",
+          "start": 16.83,
+          "end": 16.83,
+          "probability": 0.9199
+        },
+        {
+          "word": " a",
+          "start": 16.83,
+          "end": 16.89,
+          "probability": 0.8784
+        },
+        {
+          "word": " little",
+          "start": 16.89,
+          "end": 16.89,
+          "probability": 0.9695
+        },
+        {
+          "word": " bit",
+          "start": 16.89,
+          "end": 16.89,
+          "probability": 0.8514
+        },
+        {
+          "word": " of",
+          "start": 16.89,
+          "end": 16.89,
+          "probability": 0.9214
+        },
+        {
+          "word": " a",
+          "start": 16.89,
+          "end": 16.89,
+          "probability": 0.8783
+        },
+        {
+          "word": " little",
+          "start": 16.89,
+          "end": 16.89,
+          "probability": 0.9712
+        },
+        {
+          "word": " bit",
+          "start": 16.89,
+          "end": 16.89,
+          "probability": 0.8553
+        },
+        {
+          "word": " of",
+          "start": 16.89,
+          "end": 16.89,
+          "probability": 0.9275
+        },
+        {
+          "word": " a",
+          "start": 16.89,
+          "end": 16.89,
+          "probability": 0.8836
+        },
+        {
+          "word": " little",
+          "start": 16.89,
+          "end": 16.89,
+          "probability": 0.9735
+        },
+        {
+          "word": " bit",
+          "start": 16.89,
+          "end": 16.89,
+          "probability": 0.8706
+        },
+        {
+          "word": " of",
+          "start": 16.89,
+          "end": 16.89,
+          "probability": 0.9355
+        },
+        {
+          "word": " a",
+          "start": 16.89,
+          "end": 16.91,
+          "probability": 0.8773
+        },
+        {
+          "word": " little",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.9745
+        },
+        {
+          "word": " bit",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.8719
+        },
+        {
+          "word": " of",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.944
+        },
+        {
+          "word": " a",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.8822
+        },
+        {
+          "word": " little",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.9735
+        },
+        {
+          "word": " bit",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.8771
+        },
+        {
+          "word": " of",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.9461
+        },
+        {
+          "word": " a",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.8779
+        },
+        {
+          "word": " little",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.9743
+        },
+        {
+          "word": " bit",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.8792
+        },
+        {
+          "word": " of",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.9484
+        },
+        {
+          "word": " a",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.8836
+        },
+        {
+          "word": " little",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.9757
+        },
+        {
+          "word": " bit",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.881
+        },
+        {
+          "word": " of",
+          "start": 16.91,
+          "end": 16.91,
+          "probability": 0.9525
+        },
+        {
+          "word": " a",
+          "start": 16.91,
+          "end": 16.95,
+          "probability": 0.8694
+        },
+        {
+          "word": " little",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9785
+        },
+        {
+          "word": " bit",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.8762
+        },
+        {
+          "word": " of",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9586
+        },
+        {
+          "word": " a",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.8726
+        },
+        {
+          "word": " little",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9817
+        },
+        {
+          "word": " bit",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.875
+        },
+        {
+          "word": " of",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9645
+        },
+        {
+          "word": " a",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.8639
+        },
+        {
+          "word": " little",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9836
+        },
+        {
+          "word": " bit",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.8777
+        },
+        {
+          "word": " of",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9692
+        },
+        {
+          "word": " a",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.8707
+        },
+        {
+          "word": " little",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9839
+        },
+        {
+          "word": " bit",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.8793
+        },
+        {
+          "word": " of",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9721
+        },
+        {
+          "word": " a",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.8678
+        },
+        {
+          "word": " little",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.985
+        },
+        {
+          "word": " bit",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.8825
+        },
+        {
+          "word": " of",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9747
+        },
+        {
+          "word": " a",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.8609
+        },
+        {
+          "word": " little",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9853
+        },
+        {
+          "word": " bit",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.8885
+        },
+        {
+          "word": " of",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9771
+        },
+        {
+          "word": " a",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.8669
+        },
+        {
+          "word": " little",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9861
+        },
+        {
+          "word": " bit",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9018
+        },
+        {
+          "word": " of",
+          "start": 16.95,
+          "end": 16.95,
+          "probability": 0.9801
+        },
+        {
+          "word": " a",
+          "start": 16.95,
+          "end": 17.65,
+          "probability": 0.8801
+        },
+        {
+          "word": " little",
+          "start": 17.65,
+          "end": 17.65,
+          "probability": 0.9865
+        },
+        {
+          "word": " bit",
+          "start": 17.65,
+          "end": 17.65,
+          "probability": 0.9094
+        },
+        {
+          "word": " of",
+          "start": 17.65,
+          "end": 17.65,
+          "probability": 0.9828
+        },
+        {
+          "word": " a",
+          "start": 17.65,
+          "end": 17.65,
+          "probability": 0.9182
+        },
+        {
+          "word": " little",
+          "start": 17.65,
+          "end": 17.65,
+          "probability": 0.9863
+        },
+        {
+          "word": " bit",
+          "start": 17.65,
+          "end": 17.65,
+          "probability": 0.8879
+        }
+      ]
+    }
+  ],
+  "total_segments": 1
+}

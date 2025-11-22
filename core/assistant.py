@@ -217,7 +217,7 @@ class VoiceAssistant:
                 duration = frames / float(rate)
 
             os.remove(audio_file)
-            log(f"Deleted audio: {audio_file} ({duration:.1f}s, {file_size} bytes)", debug_only=True)
+            log(f"Deleted audio: {os.path.basename(audio_file)} ({duration:.1f}s, {file_size} bytes)", debug_only=True)
         except Exception as e:
             if self.logger:
                 self.logger.warning(f"Could not delete audio file: {e}")

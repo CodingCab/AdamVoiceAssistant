@@ -1,0 +1,43 @@
+{
+  "filename": "20251122_150401_214.wav",
+  "filepath": "~/Library/Caches/johnny-voice-assistant/recordings/20251122_150401_214.wav",
+  "recording_length_seconds": 3.69,
+  "transcription_time_seconds": 0.51,
+  "transcription": "ahhh, just monsoon.",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 3.69,
+  "duration_after_vad": 0.93,
+  "all_language_probs": {},
+  "segments": [
+    {
+      "start": 0.85,
+      "end": 1.33,
+      "text": " ahhh, just monsoon.",
+      "avg_logprob": -1.76,
+      "no_speech_prob": 0.3683,
+      "compression_ratio": 0.7,
+      "words": [
+        {
+          "word": " ahhh,",
+          "start": 0.85,
+          "end": 1.07,
+          "probability": 0.1018
+        },
+        {
+          "word": " just",
+          "start": 1.11,
+          "end": 1.17,
+          "probability": 0.1837
+        },
+        {
+          "word": " monsoon.",
+          "start": 1.17,
+          "end": 1.33,
+          "probability": 0.2019
+        }
+      ]
+    }
+  ],
+  "total_segments": 1
+}

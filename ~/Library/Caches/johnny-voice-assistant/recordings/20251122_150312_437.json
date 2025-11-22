@@ -1,0 +1,49 @@
+{
+  "filename": "20251122_150312_437.wav",
+  "filepath": "~/Library/Caches/johnny-voice-assistant/recordings/20251122_150312_437.wav",
+  "recording_length_seconds": 3.99,
+  "transcription_time_seconds": 0.5,
+  "transcription": "because of the procedures.",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 3.99,
+  "duration_after_vad": 1.55,
+  "all_language_probs": {},
+  "segments": [
+    {
+      "start": 2.45,
+      "end": 3.73,
+      "text": " because of the procedures.",
+      "avg_logprob": -0.7753,
+      "no_speech_prob": 0.228,
+      "compression_ratio": 0.76,
+      "words": [
+        {
+          "word": " because",
+          "start": 2.45,
+          "end": 2.91,
+          "probability": 0.4906
+        },
+        {
+          "word": " of",
+          "start": 2.91,
+          "end": 3.31,
+          "probability": 0.8272
+        },
+        {
+          "word": " the",
+          "start": 3.31,
+          "end": 3.45,
+          "probability": 0.9614
+        },
+        {
+          "word": " procedures.",
+          "start": 3.45,
+          "end": 3.73,
+          "probability": 0.8115
+        }
+      ]
+    }
+  ],
+  "total_segments": 1
+}

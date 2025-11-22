@@ -1,0 +1,49 @@
+{
+  "filename": "20251122_144549_808.wav",
+  "filepath": "~/Library/Caches/johnny-voice-assistant/recordings/20251122_144549_808.wav",
+  "recording_length_seconds": 4.69,
+  "transcription_time_seconds": 0.5,
+  "transcription": "1, 2, 3, 4",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 4.69,
+  "duration_after_vad": 1.7,
+  "all_language_probs": {},
+  "segments": [
+    {
+      "start": 0.59,
+      "end": 1.95,
+      "text": " 1, 2, 3, 4",
+      "avg_logprob": -0.342,
+      "no_speech_prob": 0.0644,
+      "compression_ratio": 0.56,
+      "words": [
+        {
+          "word": " 1,",
+          "start": 0.59,
+          "end": 1.21,
+          "probability": 0.3628
+        },
+        {
+          "word": " 2,",
+          "start": 1.35,
+          "end": 1.37,
+          "probability": 0.8275
+        },
+        {
+          "word": " 3,",
+          "start": 1.39,
+          "end": 1.63,
+          "probability": 0.9915
+        },
+        {
+          "word": " 4",
+          "start": 1.95,
+          "end": 1.95,
+          "probability": 0.991
+        }
+      ]
+    }
+  ],
+  "total_segments": 1
+}

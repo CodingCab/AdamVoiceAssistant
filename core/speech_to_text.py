@@ -106,7 +106,7 @@ class SpeechToText:
             start_time = time.time()
             audio_duration = self._get_audio_duration(audio_filename)
 
-            log(f"Transcribing: {audio_filename} ({audio_duration:.1f}s)", debug_only=True)
+            log(f"Transcribing: {os.path.basename(audio_filename)} ({audio_duration:.1f}s)", debug_only=True)
 
             # Build transcription parameters
             transcribe_params = {
