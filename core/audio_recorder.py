@@ -128,6 +128,8 @@ class AudioRecorder:
             recent_chunks = []
             debug_counter = 0
             rms_history = []  # Track last 10 RMS levels for averaging
+            noise_floor_history = []  # Track last 100 silent readings for noise floor calibration
+            noise_floor = None  # Estimated baseline noise level
 
             while True:
                 data = self.stream.read(self.chunk_size, exception_on_overflow=False)
@@ -147,10 +149,34 @@ class AudioRecorder:
                 avg_rms = sum(rms_history) / len(rms_history) if rms_history else audio_level
                 rms_ratio = audio_level / avg_rms if avg_rms > 0 else 1.0
 
-                # Combined silence detection: must meet BOTH criteria to be considered sound
-                # 1. Absolute threshold: audio level must be above minimum
-                # 2. Adaptive ratio: current level must be significantly above recent average (1.5x)
-                is_chunk_silent = (audio_level < self.silence_threshold) or (rms_ratio < 1.5)
+                # Track noise floor when detecting silence
+                # Use a temporary threshold to identify potentially silent chunks
+                temp_is_silent = (audio_level < self.silence_threshold) or (rms_ratio < 1.5)
+
+                if temp_is_silent:
+                    noise_floor_history.append(audio_level)
+                    if len(noise_floor_history) > 100:
+                        noise_floor_history.pop(0)
+
+                    # Calculate noise floor if we have enough stable data
+                    if len(noise_floor_history) >= 50:
+                        avg_floor = sum(noise_floor_history) / len(noise_floor_history)
+                        # Calculate standard deviation to check stability
+                        variance = sum((x - avg_floor) ** 2 for x in noise_floor_history) / len(noise_floor_history)
+                        std_dev = variance ** 0.5
+
+                        # If noise is stable (std dev < 20% of mean), use as calibrated floor
+                        if std_dev < avg_floor * 0.2:
+                            noise_floor = avg_floor
+
+                # Use calibrated noise floor for adaptive threshold
+                if noise_floor is not None:
+                    # Adaptive threshold: noise floor + 30% margin
+                    adaptive_threshold = noise_floor * 1.3
+                    is_chunk_silent = (audio_level < adaptive_threshold) or (rms_ratio < 1.5)
+                else:
+                    # Fallback to original logic if noise floor not yet calibrated
+                    is_chunk_silent = (audio_level < self.silence_threshold) or (rms_ratio < 1.5)
 
                 # Debug output every 20 chunks (~0.5 seconds)
                 debug_counter += 1
