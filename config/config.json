@@ -16,7 +16,7 @@
     "wake_word_cooldown": 15
   },
   "transcription": {
-    "model": "tiny",
+    "model": "large-v3",
     "device": "cpu",
     "compute_type": "float32",
     "cpu_threads": 4,
