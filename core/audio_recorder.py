@@ -137,18 +137,23 @@ class AudioRecorder:
                 # Calculate current audio level using RMS
                 audio_array = np.frombuffer(data, dtype=np.int16)
                 audio_level = np.sqrt(np.mean(audio_array.astype(np.float32) ** 2))
-                is_chunk_silent = audio_level < self.silence_threshold
 
                 # Track RMS history (last 10 values)
                 rms_history.append(audio_level)
                 if len(rms_history) > 10:
                     rms_history.pop(0)
 
+                # Calculate average and ratio for dynamic silence detection
+                avg_rms = sum(rms_history) / len(rms_history) if rms_history else audio_level
+                rms_ratio = audio_level / avg_rms if avg_rms > 0 else 1.0
+
+                # Adaptive silence detection: current level must be > 1.5x average to be considered sound
+                is_chunk_silent = rms_ratio < 1.5
+
                 # Debug output every 20 chunks (~0.5 seconds)
                 debug_counter += 1
                 if debug_counter % 20 == 0:
-                    avg_rms = sum(rms_history) / len(rms_history) if rms_history else 0
-                    log(f"RMS level: {audio_level:.0f} (avg10: {avg_rms:.0f}, threshold: {self.silence_threshold}) - {'SILENT' if is_chunk_silent else 'SOUND'}", debug_only=True)
+                    log(f"RMS level: {audio_level:.0f} (avg10: {avg_rms:.0f}, ratio: {rms_ratio:.2f}) - {'SILENT' if is_chunk_silent else 'SOUND'}", debug_only=True)
 
                 # Track recent chunks in a sliding window matching silence_duration
                 recent_chunks.append(is_chunk_silent)
