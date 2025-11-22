@@ -12,7 +12,7 @@ import wave
 from typing import Dict, Optional, Tuple
 from pathlib import Path
 
-from timing import format_elapsed, log
+from utils.timing import format_elapsed, log
 
 try:
     from faster_whisper import WhisperModel

@@ -9,7 +9,7 @@ import re
 import os
 from typing import Dict, Optional, Tuple
 
-from timing import log
+from utils.timing import log
 from .preprocessors import WakeWordDetector, RemoveWakeWord, MinimumLengthFilter
 
 

@@ -34,7 +34,7 @@ A production-ready, modular voice recognition and dictation system for macOS. En
 ## System Architecture
 
 ```
-voice_assistant.py (Main Application)
+core/assistant.py (Main Application)
 ├─ ConfigManager (Load config files)
 ├─ StateManager (Track state, history, stats)
 ├─ StructuredLogger (Logging)
@@ -154,7 +154,7 @@ Complete cycle from speech to pasted text:
 
 1. Clone or download the enhanced voice assistant:
 ```bash
-cd adam-voice-assistant-enhanced
+cd johnny-voice-assistant
 ```
 
 2. Install dependencies:
@@ -168,7 +168,7 @@ pip install -r requirements.txt
 
 4. Verify installation:
 ```bash
-python voice_assistant.py --help
+python core/assistant.py --help
 ```
 
 ## Usage
@@ -176,10 +176,10 @@ python voice_assistant.py --help
 ### Basic Usage
 ```bash
 # Start voice assistant in dictation mode
-python voice_assistant.py
+python core/assistant.py
 
 # Or specify custom config directory
-python voice_assistant.py custom/config
+python core/assistant.py custom/config
 ```
 
 ### Configuration
@@ -289,7 +289,7 @@ preprocessor.add_correction_rule("wanna", "want to")
 ## File Organization
 
 ```
-adam-voice-assistant-enhanced/
+johnny-voice-assistant/
 ├── config/
 │   ├── config.json          # Main configuration
 │   └── commands.json        # Voice commands
@@ -308,7 +308,7 @@ adam-voice-assistant-enhanced/
 │   ├── logger.py            # Structured logging
 │   ├── config_manager.py    # Configuration loading
 │   └── __init__.py
-├── voice_assistant.py       # Main application
+├── core/assistant.py       # Main application
 ├── requirements.txt         # Python dependencies
 ├── README.md                # This file
 └── files/
@@ -404,7 +404,7 @@ To extend the assistant:
 
 1. **Add custom commands:**
    - Edit `config/commands.json`
-   - Implement handler in `voice_assistant.py`
+   - Implement handler in `core/assistant.py`
 
 2. **Customize text preprocessing:**
    - Add rules to `TextPreprocessor.correction_rules`

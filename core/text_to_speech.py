@@ -9,7 +9,7 @@ import os
 import time
 from typing import Optional
 
-from timing import log
+from utils.timing import log
 
 
 class TextToSpeech:

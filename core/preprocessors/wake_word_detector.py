@@ -5,7 +5,7 @@ Detects wake word in transcription text.
 """
 
 from typing import Dict
-from timing import log
+from utils.timing import log
 
 
 class WakeWordDetector:

@@ -14,7 +14,7 @@ from datetime import datetime
 from typing import Optional, Callable
 from pathlib import Path
 
-from timing import format_elapsed, log
+from utils.timing import format_elapsed, log
 
 class AudioRecorder:
     """Records audio with automatic silence detection."""
@@ -43,13 +43,17 @@ class AudioRecorder:
         self.chunk_size = config.get('chunk_size', 1024)
         self.silence_threshold = config.get('silence_threshold', 700)
         self.silence_duration = config.get('silence_duration', 1.0)
+        self.silence_threshold_ratio = config.get('silence_threshold_ratio', 0.90)
         self.min_recording_time = config.get('min_recording_time', 0.5)
         self.max_silence_timeout = config.get('max_silence_timeout', 5.0)
         self.buffer_size = config.get('buffer_size', 43)
 
     def _is_silent(self, audio_data: bytes, threshold: int) -> bool:
-        """Check if audio data is below the silence threshold."""
-        return np.abs(np.frombuffer(audio_data, dtype=np.int16)).mean() < threshold
+        """Check if audio data is below the silence threshold using RMS."""
+        audio_array = np.frombuffer(audio_data, dtype=np.int16)
+        # Use RMS (root mean square) instead of mean - better for audio energy
+        rms = np.sqrt(np.mean(audio_array.astype(np.float32) ** 2))
+        return rms < threshold
 
     def record_until_silence(
         self,
@@ -120,23 +124,47 @@ class AudioRecorder:
                         return False
 
             # Phase 2: Record until silence is detected
+            # Use a sliding window equal to silence_duration to check for consistent silence
+            recent_chunks = []
+            debug_counter = 0
+
             while True:
                 data = self.stream.read(self.chunk_size, exception_on_overflow=False)
                 frames.append(data)
                 total_chunks += 1
 
-                if self._is_silent(data, self.silence_threshold):
-                    silent_chunks += 1
-                    if silent_chunks * self.chunk_size / self.sample_rate >= self.max_silence_timeout:
-                        break
-                else:
-                    silent_chunks = 0
+                # Calculate current audio level using RMS
+                audio_array = np.frombuffer(data, dtype=np.int16)
+                audio_level = np.sqrt(np.mean(audio_array.astype(np.float32) ** 2))
+                is_chunk_silent = audio_level < self.silence_threshold
 
-                if silent_chunks >= chunks_needed_for_silence and total_chunks >= min_chunks:
-                    log("Silence detected, stopping recording...")  # Always show
-                    if on_silence_detected:
-                        on_silence_detected()
-                    break
+                # Debug output every 20 chunks (~0.5 seconds)
+                debug_counter += 1
+                if debug_counter % 20 == 0:
+                    log(f"RMS level: {audio_level:.0f} (threshold: {self.silence_threshold}) - {'SILENT' if is_chunk_silent else 'SOUND'}", debug_only=True)
+
+                # Track recent chunks in a sliding window matching silence_duration
+                recent_chunks.append(is_chunk_silent)
+
+                # Keep window size equal to silence_duration
+                if len(recent_chunks) > chunks_needed_for_silence:
+                    recent_chunks.pop(0)
+
+                # Once we have a full window, check if enough of it is silent
+                if len(recent_chunks) >= chunks_needed_for_silence and total_chunks >= min_chunks:
+                    silent_ratio = sum(recent_chunks) / len(recent_chunks)
+                    if silent_ratio >= self.silence_threshold_ratio:
+                        log(f"Silence detected (ratio: {silent_ratio:.2f}), stopping recording...")  # Always show
+                        if on_silence_detected:
+                            on_silence_detected()
+                        break
+
+                # Also check max timeout in case of extended silence
+                if len(recent_chunks) >= chunks_needed_for_silence:
+                    silent_ratio = sum(recent_chunks) / len(recent_chunks)
+                    if silent_ratio >= self.silence_threshold_ratio:
+                        if len(recent_chunks) * self.chunk_size / self.sample_rate >= self.max_silence_timeout:
+                            break
 
             # Save audio file
             if frames:

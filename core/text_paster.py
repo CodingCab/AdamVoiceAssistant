@@ -7,7 +7,7 @@ Automatically pastes transcribed text into the active window.
 import time
 from typing import Optional
 
-from timing import log
+from utils.timing import log
 
 try:
     import pyperclip

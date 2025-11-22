@@ -25,9 +25,9 @@ from typing import Optional
 from datetime import datetime
 
 # Add parent directory to path for imports
-sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-from timing import log, set_debug_mode
+from utils.timing import log, set_debug_mode
 
 from utils import get_logger, ConfigManager, CommandsManager
 from core import (
@@ -197,6 +197,31 @@ class VoiceAssistant:
         self.command_handler.register_action("paste_text", self._handle_paste_text)
         self.command_handler.register_action("reload_config", self._handle_reload_config)
 
+    def _delete_audio_file(self, audio_file: str):
+        """
+        Delete an audio file and log the deletion.
+
+        Args:
+            audio_file: Path to the audio file to delete
+        """
+        if not audio_file or not os.path.exists(audio_file):
+            return
+
+        try:
+            # Get file info before deletion
+            file_size = os.path.getsize(audio_file)
+            import wave
+            with wave.open(audio_file, 'rb') as wf:
+                frames = wf.getnframes()
+                rate = wf.getframerate()
+                duration = frames / float(rate)
+
+            os.remove(audio_file)
+            log(f"Deleted audio: {audio_file} ({duration:.1f}s, {file_size} bytes)", debug_only=True)
+        except Exception as e:
+            if self.logger:
+                self.logger.warning(f"Could not delete audio file: {e}")
+
     def process_audio_recording(self) -> bool:
         """
         Process a single audio recording cycle.
@@ -224,36 +249,40 @@ class VoiceAssistant:
         # Store audio file path
         self.last_audio_file = audio_file
 
-        # Transcribe
-        self.state_manager.set_state(AssistantState.PROCESSING)
-        json_file = self.recognizer.transcribe_and_save(audio_file)
-        if not json_file:
-            log("Transcription failed", debug_only=True)
-            return True
+        try:
+            # Transcribe
+            self.state_manager.set_state(AssistantState.PROCESSING)
+            json_file = self.recognizer.transcribe_and_save(audio_file)
+            if not json_file:
+                log("Transcription failed", debug_only=True)
+                return True
 
-        self.last_json_file = json_file
-        self.state_manager.increment_stat('total_transcriptions')
+            self.last_json_file = json_file
+            self.state_manager.increment_stat('total_transcriptions')
 
-        # Read transcription
-        with open(json_file, 'r') as f:
-            transcription_data = json.load(f)
+            # Read transcription
+            with open(json_file, 'r') as f:
+                transcription_data = json.load(f)
 
-        transcription = transcription_data.get('transcription', '').strip()
-        log(transcription, debug_only=True)
+            transcription = transcription_data.get('transcription', '').strip()
+            log(transcription, debug_only=True)
 
-        # Preprocess text
-        processed_text, metadata = self.preprocessor.preprocess(transcription)
+            # Preprocess text
+            processed_text, metadata = self.preprocessor.preprocess(transcription)
 
-        # Check for echo
-        if metadata.get('echo_detected'):
-            log("Echo detected", debug_only=True)
-            return True
+            # Check for echo
+            if metadata.get('echo_detected'):
+                log("Echo detected", debug_only=True)
+                return True
 
-        # Process as command or dictation
-        if self.state_manager.get_mode() == AssistantMode.COMMAND:
-            return self._process_as_command(processed_text)
-        else:  # DICTATION or CONVERSATION mode
-            return self._process_as_dictation(processed_text, metadata)
+            # Process as command or dictation
+            if self.state_manager.get_mode() == AssistantMode.COMMAND:
+                return self._process_as_command(processed_text)
+            else:  # DICTATION or CONVERSATION mode
+                return self._process_as_dictation(processed_text, metadata)
+        finally:
+            # Always delete the audio file after processing
+            self._delete_audio_file(self.last_audio_file)
 
     def _process_as_command(self, text: str) -> bool:
         """
@@ -334,23 +363,6 @@ class VoiceAssistant:
                 if self.paster.paste_text(text, send_enter=send_enter):
                     self.state_manager.increment_stat('successful_pastes')
                     self.last_paste_time = time.time()  # Update last paste time
-
-                    # Delete audio file after successful paste
-                    if self.last_audio_file and os.path.exists(self.last_audio_file):
-                        try:
-                            # Get file info before deletion
-                            file_size = os.path.getsize(self.last_audio_file)
-                            import wave
-                            with wave.open(self.last_audio_file, 'rb') as wf:
-                                frames = wf.getnframes()
-                                rate = wf.getframerate()
-                                duration = frames / float(rate)
-
-                            os.remove(self.last_audio_file)
-                            log(f"Deleted audio: {self.last_audio_file} ({duration:.1f}s, {file_size} bytes)", debug_only=True)
-                        except Exception as e:
-                            if self.logger:
-                                self.logger.warning(f"Could not delete audio file: {e}")
                 else:
                     log("Failed to paste", debug_only=True)
                     self.state_manager.increment_stat('errors')

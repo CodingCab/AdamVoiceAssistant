@@ -2,8 +2,8 @@
   "app": {
     "name": "Adam Voice Assistant",
     "version": "2.0.0",
-    "debug": false,
-    "log_level": "INFO"
+    "debug": true,
+    "log_level": "DEBUG"
   },
   "features": {
     "echo_detection": true,
@@ -35,8 +35,9 @@
     "channels": 1,
     "format": "int16",
     "chunk_size": 1024,
-    "silence_threshold": 1200,
-    "silence_duration": 1.0,
+    "silence_threshold": 200,
+    "silence_duration": 3.0,
+    "silence_threshold_ratio": 0.90,
     "min_recording_time": 1.0,
     "max_silence_timeout": 5.0,
     "buffer_size": 43
@@ -50,7 +51,7 @@
     "unmute_level": 100
   },
   "paths": {
-    "recordings_dir": "files/Artur Recordings",
+    "recordings_dir": "~/Library/Caches/johnny-voice-assistant/recordings",
     "analytics_dir": "files/analytics",
     "cache_dir": ".cache",
     "config_dir": "config"

@@ -5,7 +5,7 @@ Filters out very short transcriptions and punctuation-only text.
 """
 
 from typing import Dict
-from timing import log
+from utils.timing import log
 
 
 class MinimumLengthFilter:

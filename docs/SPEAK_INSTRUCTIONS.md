@@ -5,7 +5,7 @@ When you need to communicate with the user through speech/voice, use the `speak.
 
 ## Script Location
 ```
-/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/files/scripts/adam-voice-assistant-enhanced/speak.py
+/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/apps/johnny-voice-assistant/speak.py
 ```
 
 ## How to Use
@@ -15,7 +15,7 @@ To speak text to the user, simply call the script:
 
 ```python
 Bash(
-    command='python3 "/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/files/scripts/adam-voice-assistant-enhanced/speak.py" "Your message here"',
+    command='python3 "/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/apps/johnny-voice-assistant/speak.py" "Your message here"',
     description="Speak to user"
 )
 ```
@@ -35,7 +35,7 @@ Bash(
 ### Single message
 ```python
 Bash(
-    command='python3 "/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/files/scripts/adam-voice-assistant-enhanced/speak.py" "Task completed successfully"',
+    command='python3 "/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/apps/johnny-voice-assistant/speak.py" "Task completed successfully"',
     description="Announce completion"
 )
 ```
@@ -43,7 +43,7 @@ Bash(
 ### Message with special characters
 ```python
 Bash(
-    command='python3 "/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/files/scripts/adam-voice-assistant-enhanced/speak.py" "I\'ve processed 5 files and found 3 errors."',
+    command='python3 "/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/apps/johnny-voice-assistant/speak.py" "I\'ve processed 5 files and found 3 errors."',
     description="Report status"
 )
 ```
@@ -52,7 +52,7 @@ Bash(
 ```python
 # First message
 Bash(
-    command='python3 "/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/files/scripts/adam-voice-assistant-enhanced/speak.py" "Starting the build process"',
+    command='python3 "/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/apps/johnny-voice-assistant/speak.py" "Starting the build process"',
     description="Announce start"
 )
 
@@ -61,7 +61,7 @@ Bash(
 
 # Second message when done
 Bash(
-    command='python3 "/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/files/scripts/adam-voice-assistant-enhanced/speak.py" "Build completed"',
+    command='python3 "/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/apps/johnny-voice-assistant/speak.py" "Build completed"',
     description="Announce completion"
 )
 ```

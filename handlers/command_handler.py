@@ -6,7 +6,7 @@ Processes voice commands and executes corresponding actions.
 
 from typing import Callable, Dict, Optional, Any
 from utils import CommandsManager
-from timing import log
+from utils.timing import log
 
 
 class CommandHandler:

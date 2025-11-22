@@ -5,7 +5,7 @@
 ### 1. Install Dependencies (2 minutes)
 
 ```bash
-cd adam-voice-assistant-enhanced
+cd johnny-voice-assistant
 pip install -r requirements.txt
 ```
 
@@ -29,7 +29,7 @@ The assistant needs permission to control your keyboard for pasting:
 ### 3. Run the Assistant (< 1 minute)
 
 ```bash
-python voice_assistant.py
+python core/assistant.py
 ```
 
 **You should see:**
@@ -168,7 +168,7 @@ files/
 
 ### Workflow 1: Quick Note-Taking
 1. Open Notes app
-2. Run assistant: `python voice_assistant.py`
+2. Run assistant: `python core/assistant.py`
 3. Say: "Remember to buy milk"
 4. Text pastes automatically ✓
 

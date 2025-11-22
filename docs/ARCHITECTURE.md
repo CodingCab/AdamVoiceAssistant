@@ -525,7 +525,7 @@ Input: "stup"
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│ SESSION START (voice_assistant.py.run())                 │
+│ SESSION START (core/assistant.py.run())                 │
 └────────┬─────────────────────────────────────────────────┘
          │
          ▼
@@ -597,7 +597,7 @@ Input: "stup"
 }
 ```
 
-2. **Register handler in voice_assistant.py:**
+2. **Register handler in core/assistant.py:**
 ```python
 self.command_handler.register_action(
     "my_action",

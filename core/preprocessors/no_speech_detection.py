@@ -5,7 +5,7 @@ Analyzes transcription metadata to detect if the audio contains actual speech or
 """
 
 from typing import Dict, Optional
-from timing import log
+from utils.timing import log
 
 
 class NoSpeechDetector:

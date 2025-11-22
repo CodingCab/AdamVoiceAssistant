@@ -5,7 +5,7 @@ Removes wake word from transcription text and cleans up punctuation.
 """
 
 from typing import Tuple
-from timing import log
+from utils.timing import log
 
 
 class RemoveWakeWord:
