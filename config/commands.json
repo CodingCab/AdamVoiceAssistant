@@ -101,7 +101,7 @@
       "fileName": ""
     },
     "commit_and_push": {
-      "aliases": ["commit and push", "git commit and push", "commit and push it", "commit and push that"],
+      "aliases": ["commit and push", "commit, push", "git commit and push", "commit and push it", "commit and push that"],
       "description": "Paste git commit and push command",
       "action": "paste_text",
       "text": "commit and push",
