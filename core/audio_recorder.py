@@ -155,7 +155,13 @@ class AudioRecorder:
                 # Debug output every 20 chunks (~0.5 seconds)
                 debug_counter += 1
                 if debug_counter % 20 == 0:
-                    log(f"RMS level: {audio_level:.0f} (avg10: {avg_rms:.0f}, ratio: {rms_ratio:.2f}, threshold: {self.silence_threshold}) - {'SILENT' if is_chunk_silent else 'SOUND'}", debug_only=True)
+                    # Detailed RMS log (commented out temporarily)
+                    # log(f"RMS level: {audio_level:.0f} (avg10: {avg_rms:.0f}, ratio: {rms_ratio:.2f}, threshold: {self.silence_threshold}) - {'SILENT' if is_chunk_silent else 'SOUND'}", debug_only=True)
+
+                    # Visual dot-based sound level display (each dot = ~20 RMS units)
+                    num_dots = int(audio_level / 20)
+                    dots = '•' * num_dots
+                    log(f"{dots} ({audio_level:.0f})", debug_only=True)
 
                 # Track recent chunks in a sliding window matching silence_duration
                 recent_chunks.append(is_chunk_silent)
