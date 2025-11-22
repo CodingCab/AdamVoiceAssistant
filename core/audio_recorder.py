@@ -187,7 +187,10 @@ class AudioRecorder:
                     # Visual dot-based sound level display (each dot = ~50 RMS units, max 70% width)
                     num_dots = int(audio_level / 50)
                     dots = '•' * min(num_dots, 50)  # Cap at 50 dots max
-                    log(f"{dots} ({audio_level:.0f})", debug_only=True)
+
+                    # Show current threshold (adaptive or fixed)
+                    current_threshold = int(adaptive_threshold) if noise_floor is not None else self.silence_threshold
+                    log(f"{current_threshold}/{audio_level:.0f} {dots}", debug_only=True)
 
                 # Track recent chunks in a sliding window matching silence_duration
                 recent_chunks.append(is_chunk_silent)
