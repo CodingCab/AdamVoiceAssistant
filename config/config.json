@@ -12,7 +12,7 @@
     "command_mode": true,
     "multi_language_detect": false,
     "batch_processing": false,
-    "wake_words": ["hey johnny", "johnny", "adam", "hey adam"],
+    "wake_words": ["hey johnny", "johnny", "adam", "hey adam", "great, can you", "johny can you", "ok, can you"],
     "wake_word_cooldown": 15
   },
   "transcription": {
@@ -35,7 +35,7 @@
     "channels": 1,
     "format": "int16",
     "chunk_size": 1024,
-    "silence_threshold": 270,
+    "silence_threshold": 200,
     "silence_duration": 2.0,
     "silence_threshold_ratio": 0.90,
     "min_recording_time": 1.0,

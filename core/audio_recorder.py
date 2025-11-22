@@ -127,6 +127,7 @@ class AudioRecorder:
             # Use a sliding window equal to silence_duration to check for consistent silence
             recent_chunks = []
             debug_counter = 0
+            rms_history = []  # Track last 10 RMS levels for averaging
 
             while True:
                 data = self.stream.read(self.chunk_size, exception_on_overflow=False)
@@ -138,10 +139,16 @@ class AudioRecorder:
                 audio_level = np.sqrt(np.mean(audio_array.astype(np.float32) ** 2))
                 is_chunk_silent = audio_level < self.silence_threshold
 
+                # Track RMS history (last 10 values)
+                rms_history.append(audio_level)
+                if len(rms_history) > 10:
+                    rms_history.pop(0)
+
                 # Debug output every 20 chunks (~0.5 seconds)
                 debug_counter += 1
                 if debug_counter % 20 == 0:
-                    log(f"RMS level: {audio_level:.0f} (threshold: {self.silence_threshold}) - {'SILENT' if is_chunk_silent else 'SOUND'}", debug_only=True)
+                    avg_rms = sum(rms_history) / len(rms_history) if rms_history else 0
+                    log(f"RMS level: {audio_level:.0f} (avg10: {avg_rms:.0f}, threshold: {self.silence_threshold}) - {'SILENT' if is_chunk_silent else 'SOUND'}", debug_only=True)
 
                 # Track recent chunks in a sliding window matching silence_duration
                 recent_chunks.append(is_chunk_silent)
