@@ -118,7 +118,7 @@ class SpeechToText:
                 'temperature': self.config.get('temperature', 0),
                 'condition_on_previous_text': self.config.get('condition_on_previous_text', True),
                 'no_speech_threshold': self.config.get('no_speech_threshold', 0.6),
-                'logprob_threshold': self.config.get('logprob_threshold', -1.0),
+                'log_prob_threshold': self.config.get('logprob_threshold', -1.0),
                 'compression_ratio_threshold': self.config.get('compression_ratio_threshold', 2.4)
             }
 
