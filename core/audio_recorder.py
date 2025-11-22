@@ -147,8 +147,10 @@ class AudioRecorder:
                 avg_rms = sum(rms_history) / len(rms_history) if rms_history else audio_level
                 rms_ratio = audio_level / avg_rms if avg_rms > 0 else 1.0
 
-                # Adaptive silence detection: current level must be > 1.5x average to be considered sound
-                is_chunk_silent = rms_ratio < 1.5
+                # Combined silence detection: must meet BOTH criteria to be considered sound
+                # 1. Absolute threshold: audio level must be above minimum
+                # 2. Adaptive ratio: current level must be significantly above recent average (1.5x)
+                is_chunk_silent = (audio_level < self.silence_threshold) or (rms_ratio < 1.5)
 
                 # Debug output every 20 chunks (~0.5 seconds)
                 debug_counter += 1
