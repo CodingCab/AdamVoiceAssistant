@@ -54,6 +54,25 @@ def unmute_microphone():
     except:
         pass
 
+def get_system_speech_rate():
+    """Get speech rate from macOS Accessibility settings."""
+    try:
+        result = subprocess.run(
+            ['defaults', 'read', 'com.apple.Accessibility', 'SpokenContentDefaultVoiceSelectionsByLanguage'],
+            capture_output=True, text=True
+        )
+        # Parse rate from output (format: rate = 1.5;)
+        import re
+        match = re.search(r'rate\s*=\s*([0-9.]+)', result.stdout)
+        if match:
+            # Convert system rate (0-2 multiplier) to words per minute
+            # System rate 1.0 = 175 wpm (default), 2.0 = 350 wpm, 0.5 = 87 wpm
+            system_rate = float(match.group(1))
+            return int(175 * system_rate)
+    except:
+        pass
+    return None  # Use default if can't read
+
 def speak(text):
     """Speak text using macOS say command in background."""
     if not text or not text.strip():
@@ -67,8 +86,8 @@ def speak(text):
         mute_microphone()
 
         # Use macOS built-in 'say' command in background
-        # The speech process will run independently and handle unmuting
-        subprocess.Popen(['say', text])
+        # Rate: 193 wpm (10% faster than default 175 wpm)
+        subprocess.Popen(['say', '-r', '193', text])
 
         # Schedule unmuting after a delay (approximate speech duration)
         # Estimate: ~150 words per minute, ~2.5 chars per word = ~6 chars per second

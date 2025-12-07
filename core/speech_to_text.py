@@ -112,14 +112,18 @@ class SpeechToText:
             transcribe_params = {
                 'audio': audio_filename,
                 'language': self.config.get('language', 'en'),
-                'beam_size': self.config.get('beam_size', 1),
-                'vad_filter': self.config.get('vad_filter', False),
+                'beam_size': self.config.get('beam_size', 5),
+                'vad_filter': self.config.get('vad_filter', True),
                 'word_timestamps': True,
                 'temperature': self.config.get('temperature', 0),
-                'condition_on_previous_text': self.config.get('condition_on_previous_text', True),
-                'no_speech_threshold': self.config.get('no_speech_threshold', 0.6),
-                'log_prob_threshold': self.config.get('logprob_threshold', -1.0),
-                'compression_ratio_threshold': self.config.get('compression_ratio_threshold', 2.4)
+                'condition_on_previous_text': self.config.get('condition_on_previous_text', False),
+                'no_speech_threshold': self.config.get('no_speech_threshold', 0.4),
+                'log_prob_threshold': self.config.get('log_prob_threshold', -0.8),
+                'compression_ratio_threshold': self.config.get('compression_ratio_threshold', 2.2),
+
+                # Anti-repetition parameters (added in faster-whisper v0.8.0)
+                'repetition_penalty': self.config.get('repetition_penalty', 1.2),
+                'no_repeat_ngram_size': self.config.get('no_repeat_ngram_size', 2)
             }
 
             # Add initial prompt if configured (helps with context and vocabulary)
