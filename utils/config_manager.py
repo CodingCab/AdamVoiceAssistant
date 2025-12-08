@@ -109,15 +109,37 @@ class CommandsManager:
 
     def get_command(self, text: str) -> Optional[Dict]:
         """Get command by name or alias."""
-        text = text.lower().strip()
+        text_lower = text.lower().strip()
+        # Also normalize by removing trailing punctuation for matching
+        text_normalized = text_lower.rstrip('.,!?')
 
         # Try exact match first
-        cmd_name = self.command_lookup.get(text)
+        cmd_name = self.command_lookup.get(text_lower)
         if cmd_name:
             return {'name': cmd_name, **self.commands[cmd_name]}
 
+        # Try exact match with normalized text
+        cmd_name = self.command_lookup.get(text_normalized)
+        if cmd_name:
+            return {'name': cmd_name, **self.commands[cmd_name]}
+
+        # Try prefix match for commands with pass_speech
+        # Sort by length (longest first) to match most specific command
+        sorted_keys = sorted(self.command_lookup.keys(), key=len, reverse=True)
+        for cmd_key in sorted_keys:
+            # Check if text starts with the command (with word boundary)
+            if text_normalized.startswith(cmd_key):
+                # Ensure it's a word boundary (next char is space, comma, or end)
+                rest = text_normalized[len(cmd_key):]
+                if not rest or rest[0] in ' ,.:;!?':
+                    cmd_name = self.command_lookup.get(cmd_key)
+                    cmd_data = self.commands[cmd_name]
+                    # Only use prefix match for commands that accept speech
+                    if cmd_data.get('pass_speech', False):
+                        return {'name': cmd_name, **cmd_data}
+
         # Try fuzzy match if enabled
-        closest = self._fuzzy_match(text)
+        closest = self._fuzzy_match(text_lower)
         if closest:
             cmd_name = self.command_lookup.get(closest)
             return {'name': cmd_name, **self.commands[cmd_name]}

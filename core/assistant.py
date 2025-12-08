@@ -196,6 +196,7 @@ class VoiceAssistant:
         self.command_handler.register_action("repeat_last", self._handle_repeat_last)
         self.command_handler.register_action("paste_text", self._handle_paste_text)
         self.command_handler.register_action("reload_config", self._handle_reload_config)
+        self.command_handler.register_action("run_command", self._handle_run_command)
 
     def _delete_audio_file(self, audio_file: str):
         """
@@ -488,6 +489,70 @@ class VoiceAssistant:
         except Exception as e:
             log(f"Failed to reload configuration: {e}")
             return f"Failed to reload configuration: {e}"
+
+    def _handle_run_command(self, command: dict, text: str) -> str:
+        """Handle run command - executes external command with optional speech input."""
+        import subprocess
+
+        cmd = command.get('command', '')
+        if not cmd:
+            return "No command specified"
+
+        # If pass_speech is true, extract speech after the trigger word and append
+        if command.get('pass_speech', False):
+            # Get the command name and aliases to find where speech starts
+            cmd_name = command.get('name', '')
+            aliases = command.get('aliases', [])
+
+            # Find and remove the trigger word from the text
+            speech = text
+            text_lower = text.lower()
+
+            # Check command name and aliases (sort by length, longest first)
+            triggers = sorted([cmd_name] + aliases, key=len, reverse=True)
+            for trigger in triggers:
+                trigger_lower = trigger.lower()
+                if text_lower.startswith(trigger_lower):
+                    speech = text[len(trigger):].strip()
+                    break
+
+            if speech:
+                cmd = f'{cmd} "{speech}"'
+
+        # Get working directory (default to Journal root)
+        cwd = command.get('cwd', None)
+        if cwd is None:
+            # Default to Journal directory (3 levels up from core/assistant.py)
+            # __file__ = .../Journal/apps/johnny-voice-assistant/core/assistant.py
+            # -> .../Journal/apps/johnny-voice-assistant/core
+            # -> .../Journal/apps/johnny-voice-assistant
+            # -> .../Journal/apps
+            # -> .../Journal
+            cwd = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+
+        try:
+            log(f"Executing command: {cmd} (cwd: {cwd})")
+            result = subprocess.run(
+                cmd,
+                shell=True,
+                capture_output=True,
+                text=True,
+                timeout=300,  # 5 minute timeout
+                cwd=cwd
+            )
+
+            if result.returncode == 0:
+                output = result.stdout.strip() if result.stdout else "Command completed"
+                return output
+            else:
+                error = result.stderr.strip() if result.stderr else "Command failed"
+                return f"Error: {error}"
+
+        except subprocess.TimeoutExpired:
+            return "Command timed out"
+        except Exception as e:
+            log(f"Failed to execute command: {e}")
+            return f"Failed to execute command: {e}"
 
     def run(self):
         """Run the voice assistant in continuous mode."""

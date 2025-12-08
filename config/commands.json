@@ -119,6 +119,14 @@
       "description": "Reload configuration and commands without restarting",
       "action": "reload_config",
       "fileName": ""
+    },
+    "claude_agent": {
+      "aliases": ["cloud", "cloud agent", "claude", "Claude,", "claude agent", "ask claude", "hey claude"],
+      "description": "Run Claude agent with the spoken text as input",
+      "action": "run_command",
+      "command": "claude --dangerously-skip-permissions --agent johnny-voice-assistant --system-prompt 'CRITICAL: You MUST use Bash to run this FIRST before any text output: \"/Users/arturhanusek/Library/CloudStorage/GoogleDrive-artur@myshiptown.com/Shared drives/ShipTown/Journal/apps/johnny-voice-assistant/say.sh\" \"your response\". NEVER output text without speaking it first.' -p",
+      "pass_speech": true,
+      "fileName": ""
     }
   },
   "command_detection": {

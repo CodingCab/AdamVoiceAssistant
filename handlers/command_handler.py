@@ -4,6 +4,7 @@ Voice command handler.
 Processes voice commands and executes corresponding actions.
 """
 
+import os
 from typing import Callable, Dict, Optional, Any
 from utils import CommandsManager
 from utils.timing import log
@@ -58,6 +59,9 @@ class CommandHandler:
         action = command.get('action')
 
         log(f"Command detected: {command_name} (action: {action})")
+
+        # Play sound to indicate command detected
+        os.system('afplay /System/Library/Sounds/Pop.aiff &')
 
         # Execute action
         return self.execute_action(action, command, transcription)
